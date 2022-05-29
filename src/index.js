@@ -10,7 +10,6 @@ import Life from './pages/life';
 import IT from './pages/it';
 import About from './pages/about';
 import Donate from './pages/donate';
-import NotFound from './pages/404';
   
 function App() {
 return (
@@ -22,7 +21,6 @@ return (
         <Route path='/it' element={<IT/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/donate' element={<Donate/>} />
-		<Route path='*' exact={true} element={<NotFound/>} />
     </Routes>
     <Footer />
     </Router>

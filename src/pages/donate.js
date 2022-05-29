@@ -1,8 +1,15 @@
 import React from 'react';
+import { Helmet } from 'react-helmet'
+
+const TITLE = 'Donate - Venturing Forth'
   
 const Donate = () => {
   return (
-    <h1>Donate page</h1>
+    <>
+		<Helmet>
+			<title>{ TITLE }</title>
+        </Helmet>
+    </>
   );
 };
   

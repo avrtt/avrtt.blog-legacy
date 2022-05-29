@@ -6,6 +6,7 @@ import {
   Box,
   Container,
   Row,
+  FooterLink,
 } from "./FooterStyles";
   
 const Footer = () => {
@@ -13,9 +14,9 @@ const Footer = () => {
     <Box>
       <Container>
 		<Row>
-            <a href="mailto:lenferdetroud@gmail.com"><img src={Email} style={{ height: 40, width: 40 }} alt="email-logo" /></a>
-            <a href="https://t.me/venturingforth"><img src={Telegram} style={{ height: 40, width: 40 }} alt="telegram-logo" /></a>
-            <a href="https://github.com/lenferdetroud"><img src={GitHub} style={{ height: 40, width: 40 }} alt="github-logo" /></a>
+            <FooterLink href="mailto:lenferdetroud@gmail.com"><img src={Email} style={{ height: 40, width: 40 }} alt="email-logo" /></FooterLink>
+            <FooterLink href="https://t.me/venturingforth"><img src={Telegram} style={{ height: 40, width: 40 }} alt="telegram-logo" /></FooterLink>
+            <FooterLink href="https://github.com/lenferdetroud"><img src={GitHub} style={{ height: 40, width: 40 }} alt="github-logo" /></FooterLink>
 		</Row>
 		<Row>
 			copyright © lenferdetroud

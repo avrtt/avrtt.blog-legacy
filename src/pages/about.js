@@ -1,12 +1,15 @@
-import React from "react";
+import React from 'react';
+import { Helmet } from 'react-helmet'
+
+const TITLE = 'About - Venturing Forth'
   
 const About = () => {
   return (
-    <div>
-      <h1>
-          About page
-      </h1>
-    </div>
+    <>
+		<Helmet>
+			<title>{ TITLE }</title>
+        </Helmet>
+    </>
   );
 };
   

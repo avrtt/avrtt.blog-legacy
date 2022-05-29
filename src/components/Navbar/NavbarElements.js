@@ -22,7 +22,7 @@ export const NavLink = styled(Link)`
   }
   &:hover {
       color: #696969;
-      transition: 200ms ease-in;
+      transition: 170ms ease-in;
   }
 `;
   
@@ -30,11 +30,6 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
-  /* Second Nav */
-  /* margin-right: 24px; */
-  /* Third Nav */
-  /* width: 100vw;
-white-space: nowrap; */
   @media screen and (max-width: 768px) {
     display: none;
   }

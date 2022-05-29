@@ -1,8 +1,15 @@
 import React from 'react';
-  
+import { Helmet } from 'react-helmet'
+
+const TITLE = 'Life blog post - Venturing Forth'
+
 const Life = () => {
   return (
-    <h1>Life page</h1>
+    <>
+		<Helmet>
+			<title>{ TITLE }</title>
+        </Helmet>
+    </>
   );
 };
   

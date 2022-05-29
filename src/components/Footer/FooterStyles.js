@@ -26,15 +26,13 @@ export const Row = styled.div`
     grid-template-columns: repeat(auto-fill, 
                            minmax(200px, 1fr));
   }
+  font-weight: bold;
 `;
    
 export const FooterLink = styled.a`
-  margin-bottom: 20px;
-  font-size: 18px;
-  text-decoration: none;
-   
   &:hover {
-      color: #696969;
-      transition: 200ms ease-in;
+      opacity: 0.7;
+      filter: alpha(opacity=40);
+      transition: 170ms ease-in;
   }
 `;

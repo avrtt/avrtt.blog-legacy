@@ -1,7 +1,7 @@
 {
   "name": "lenferdetroud.github.io",
   "version": "0.1.0",
-  "homepage": "https://lenferdetroud.github.io/lenferdetroud.github.io",
+  "homepage": "https://lenferdetroud.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

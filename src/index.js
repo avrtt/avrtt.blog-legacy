@@ -22,7 +22,7 @@ return (
         <Route path='/it' element={<IT/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/donate' element={<Donate/>} />
-        <Route path="*" element={<NotFound />} />
+		<Route path='*' exact={true} element={<NotFound/>} />
     </Routes>
     <Footer />
     </Router>

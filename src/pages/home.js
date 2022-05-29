@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet'
 
 const TITLE = 'Venturing Forth'
-const DESCRIPTION = 'desc'
+const DESCRIPTION = ''
 
 const Home = () => {
   return (

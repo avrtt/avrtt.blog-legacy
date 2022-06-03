@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet'
 
 import BTC from "./img/donate/btc.svg";
@@ -15,7 +15,7 @@ const TITLE = 'Donate - Venturing Forth'
 const logoStyle = {
 	'vertical-align': 'middle'
 }; 
- 
+
 function copy_long(str) {
 	var el = document.createElement('textarea');
 	el.value = str;
@@ -27,7 +27,61 @@ function copy_long(str) {
 	document.body.removeChild(el);
 }
 
+function modal1() {
+	var modal = document.getElementById("myModal");
+	var img = document.getElementById("myImg1");
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = this.alt;
+	}
+	var span = document.getElementsByClassName("close")[0];
+	span.onclick = function() { 
+		modal.style.display = "none";
+	}
+}
+
+function modal2() {
+	var modal = document.getElementById("myModal");
+	var img = document.getElementById("myImg2");
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = this.alt;
+	}
+	var span = document.getElementsByClassName("close")[0];
+	span.onclick = function() { 
+		modal.style.display = "none";
+	}
+}
+
+function modal3() {
+	var modal = document.getElementById("myModal");
+	var img = document.getElementById("myImg3");
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = this.alt;
+	}
+	var span = document.getElementsByClassName("close")[0];
+	span.onclick = function() { 
+		modal.style.display = "none";
+	}
+}
+
 const Donate = () => {
+	useEffect(() => {
+		modal1();
+		modal2();
+		modal3();
+	}, []);
+	
   return (
     <>
 		<Helmet>
@@ -58,7 +112,7 @@ const Donate = () => {
 			<code class="address" onclick={copy_long('46qGpovqf577jmfR9b6KZ9ixQXV6TrSMp6YnwM19Us3zjitny9jjtHA753mLisvn7j9ZECJ17UbYEY6xKrRMffrc73aET7N')}><div class="tooltip">46qGpovqf577jmfR9b6KZ...EY6xKrRMffrc73aET7N
 			<span class="tooltiptext">Click to copy</span></div></code>&nbsp;
 			<img id="qr" class="icon" src={QR} width="35" height="35" title="QR code" alt="qr-code" />
-			<img id="myImg3" class="icon" src={XMRQR} alt="46qGpovqf577jmfR9b6KZ...EY6xKrRMffrc73aET7N" width="40" height="40" style={logoStyle} title="QR code" />&nbsp;
+			<img id="myImg3" class="icon" src={XMRQR} alt="46qGpovqf577jmfR9b6KZ9ixQXV6TrSMp6YnwM19Us3zjit ny9jjtHA753mLisvn7j9ZECJ17UbYEY6xKrRMffrc73aET7N" width="40" height="40" style={logoStyle} title="QR code" />&nbsp;
 			<div class="currency-name"><b>XMR</b> (MONERO NETWORK)</div>
 		</div>
 		</div>

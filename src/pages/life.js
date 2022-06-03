@@ -23,9 +23,10 @@ const Life = () => {
 		<Helmet>
 			<title>{ TITLE }</title>
         </Helmet>
-        <div style={divStyle}>
-			<iframe src="https://www.google.com/maps/d/embed?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ehbc=2E312F" style={iframeStyle} title="Travel Map" />
-		</div>	
+        
+		<div id="map-container" style={divStyle}>
+			<iframe id="map-embed" src="https://www.google.com/maps/d/embed?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ehbc=2E312F" style={iframeStyle} title="Travel Map" />
+		</div>
     </>
   );
 };

@@ -42,6 +42,27 @@ code {
     line-height: 0.5;
 }
 
+#map-container {
+	border: thick double #c0c0c0;
+}
+
+#map-embed {
+	opacity: 0.6;
+	-webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25);
+    transition: all 0.5s ease;
+}
+
+#map-embed:hover {
+	opacity: 1;
+	filter: alpha(opacity=40);
+    transition: 200ms ease-in;
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
 .prew {
     display: block;
     width: 100%;
@@ -88,7 +109,6 @@ code {
 
 .overlay-blur {
     backdrop-filter: blur(5px);
-    
 }
 
 .title {
@@ -119,17 +139,6 @@ code {
 
 .hover {
     position: relative;
-}
-
-.shrink img {
-    transition: 0.2s ease;
-}
-
-.shrink img:hover{
-    -webkit-transform: scale(0.97);
-    -ms-transform: scale(0.97);
-    transform: scale(0.97);
-    transition: 0.1s ease;
 }
 
 .post-footer {
@@ -192,7 +201,6 @@ code {
 	position: relative;
 	margin-top: 100px;
 	margin-bottom: 550px;
-
 }
 
 .container .wallet1, .wallet2, .wallet3 {
@@ -246,7 +254,13 @@ code {
 }
 
 #qr {
-	transform: translate(35%, 30%)
+	transform: translate(35%, 30%);
+}
+
+#qr:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=40);
+    transition: 170ms ease-in;
 }
 
 .modal {

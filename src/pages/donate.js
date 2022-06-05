@@ -16,7 +16,7 @@ const logoStyle = {
 	'vertical-align': 'middle'
 }; 
 
-function copy_long(str) {
+function copy_address(str) {
 	var el = document.createElement('textarea');
 	el.value = str;
 	el.setAttribute('readonly', '');
@@ -27,41 +27,9 @@ function copy_long(str) {
 	document.body.removeChild(el);
 }
 
-function modal1() {
+function modal(myImg) {
 	var modal = document.getElementById("myModal");
-	var img = document.getElementById("myImg1");
-	var modalImg = document.getElementById("img01");
-	var captionText = document.getElementById("caption");
-	img.onclick = function(){
-		modal.style.display = "block";
-		modalImg.src = this.src;
-		captionText.innerHTML = this.alt;
-	}
-	var span = document.getElementsByClassName("close")[0];
-	span.onclick = function() { 
-		modal.style.display = "none";
-	}
-}
-
-function modal2() {
-	var modal = document.getElementById("myModal");
-	var img = document.getElementById("myImg2");
-	var modalImg = document.getElementById("img01");
-	var captionText = document.getElementById("caption");
-	img.onclick = function(){
-		modal.style.display = "block";
-		modalImg.src = this.src;
-		captionText.innerHTML = this.alt;
-	}
-	var span = document.getElementsByClassName("close")[0];
-	span.onclick = function() { 
-		modal.style.display = "none";
-	}
-}
-
-function modal3() {
-	var modal = document.getElementById("myModal");
-	var img = document.getElementById("myImg3");
+	var img = document.getElementById(myImg);
 	var modalImg = document.getElementById("img01");
 	var captionText = document.getElementById("caption");
 	img.onclick = function(){
@@ -77,9 +45,9 @@ function modal3() {
 
 const Donate = () => {
 	useEffect(() => {
-		modal1();
-		modal2();
-		modal3();
+		modal("myImg1");
+		modal("myImg2");
+		modal("myImg3");
 	}, []);
 	
   return (
@@ -91,7 +59,7 @@ const Donate = () => {
 		<div class="container">		
 		<div class="wallet1">
 			<img src={BTC} alt="btc_logo" width="60" height="60" style={logoStyle} />
-			<code class="address" onclick={copy_long('bc1qe4h2scmc5hq5xjq43uz8xur5ghrkszn00h437d')}><div class="tooltip">bc1qe4h2scmc5hq5xjq43uz8xur5ghrkszn00h437d
+			<code class="address" onclick={copy_address('bc1qe4h2scmc5hq5xjq43uz8xur5ghrkszn00h437d')}><div class="tooltip">bc1qe4h2scmc5hq5xjq43uz8xur5ghrkszn00h437d
 			<span class="tooltiptext">Click to copy</span></div></code>&nbsp;
 			<img id="qr" class="icon" src={QR} width="35" height="35" title="QR code" alt="qr-code" />
 			<img id="myImg1" class="icon" src={BTCQR} alt="bc1qe4h2scmc5hq5xjq43uz8xur5ghrkszn00h437d" width="40" height="40" style={logoStyle} title="QR code" />&nbsp;
@@ -100,7 +68,7 @@ const Donate = () => {
 		</div>
 		<div class="wallet2">
 			<img src={ETH} alt="etherium_logo" width="60" height="60" style={logoStyle} />
-			<code class="address" onclick={copy_long('0xabFFf687cE09b39858f4432Ef643129CcC1B5bBf')}><div class="tooltip">0xabFFf687cE09b39858f4432Ef643129CcC1B5bBf
+			<code class="address" onclick={copy_address('0xabFFf687cE09b39858f4432Ef643129CcC1B5bBf')}><div class="tooltip">0xabFFf687cE09b39858f4432Ef643129CcC1B5bBf
 			<span class="tooltiptext">Click to copy</span></div></code>&nbsp;
 			<img id="qr" class="icon" src={QR} width="35" height="35" title="QR code" alt="qr-code" />
 			<img id="myImg2" class="icon" src={ETHQR} alt="0xabFFf687cE09b39858f4432Ef643129CcC1B5bBf" width="40" height="40" style={logoStyle} title="QR code" />&nbsp;
@@ -109,7 +77,7 @@ const Donate = () => {
 		</div>
 		<div class="wallet3">
 			<img src={XMR} alt="xmr_logo" width="60" height="60" style={logoStyle} />
-			<code class="address" onclick={copy_long('46qGpovqf577jmfR9b6KZ9ixQXV6TrSMp6YnwM19Us3zjitny9jjtHA753mLisvn7j9ZECJ17UbYEY6xKrRMffrc73aET7N')}><div class="tooltip">46qGpovqf577jmfR9b6KZ...EY6xKrRMffrc73aET7N
+			<code class="address" onclick={copy_address('46qGpovqf577jmfR9b6KZ9ixQXV6TrSMp6YnwM19Us3zjitny9jjtHA753mLisvn7j9ZECJ17UbYEY6xKrRMffrc73aET7N')}><div class="tooltip">46qGpovqf577jmfR9b6KZ...EY6xKrRMffrc73aET7N
 			<span class="tooltiptext">Click to copy</span></div></code>&nbsp;
 			<img id="qr" class="icon" src={QR} width="35" height="35" title="QR code" alt="qr-code" />
 			<img id="myImg3" class="icon" src={XMRQR} alt="46qGpovqf577jmfR9b6KZ9ixQXV6TrSMp6YnwM19Us3zjit ny9jjtHA753mLisvn7j9ZECJ17UbYEY6xKrRMffrc73aET7N" width="40" height="40" style={logoStyle} title="QR code" />&nbsp;

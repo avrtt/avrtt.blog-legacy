@@ -44,6 +44,7 @@ code {
 
 #map-container {
 	border: thick double #c0c0c0;
+	margin-top: 100px;
 }
 
 #map-embed {
@@ -63,16 +64,19 @@ code {
     transform: scale(1.4);
 }
 
-.prew {
+.prew-home {
     display: block;
     width: 100%;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
     max-width: 100%;
 }
 
-.overlay {
+.prew {
+	display: block;
+	width: 450px;
+	margin-top: 15px;
+}
+
+.overlay-home {
     position: absolute;
     top: 0;
     left: 0;
@@ -87,32 +91,29 @@ code {
     justify-content: center;
     opacity: 0;
     transition: opacity 0.25s;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
     max-width: 100%;
+    cursor: pointer;
 }
 
-.overlay:hover {
+.overlay-home:hover {
     opacity: 1;
 }
 
-.overlay > *  {
+.overlay-home > *  {
     transform: translateY(20px);
-    transition: transform 0.25s;
+    transition: transform 0.15s;
 }
 
 
-.overlay:hover > *  {
+.overlay-home:hover > *  {
     transform: translateY(0);
-}
-
-.overlay-blur {
-    backdrop-filter: blur(5px);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .title {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     text-shadow: 0 0px 0 #ffffff;
 }

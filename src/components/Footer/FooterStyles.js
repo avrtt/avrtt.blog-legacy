@@ -30,6 +30,7 @@ export const Row = styled.div`
 `;
    
 export const FooterLink = styled.a`
+  transition: 170ms ease-in;
   &:hover {
       opacity: 0.7;
       filter: alpha(opacity=40);

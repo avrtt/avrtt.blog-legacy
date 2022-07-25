@@ -14,7 +14,7 @@ h1, h2, h3 {
     line-height: 1;
 }
 
-a {
+a, href {
 	text-decoration: none;
 	font-weight: 800;
 	border-bottom: 0;
@@ -29,7 +29,7 @@ a {
 	transition: background-position 200ms ease;
 }
 
-a:hover {
+a:hover, href:hover {
 	background-position: 0 100%;
 	border-bottom: 0;
 	color: #696969;
@@ -40,6 +40,8 @@ code {
     font-family: 'Roboto Mono', monospace;
     padding: .25em;
     line-height: 0.5;
+    transition: 100ms ease-in;
+    cursor: pointer;
 }
 
 #map-container {
@@ -72,8 +74,8 @@ code {
 
 .prew {
 	display: block;
-	width: 450px;
-	margin-top: 15px;
+	width: 462px;
+	margin-top: 18px;
 }
 
 .overlay-home {
@@ -140,6 +142,11 @@ code {
 
 .hover {
     position: relative;
+    transition: transform .2s;
+}
+
+.hover:hover {
+	transform: scale(0.95);
 }
 
 .post-footer {
@@ -193,6 +200,27 @@ code {
 	border-color: #444444 transparent transparent transparent;
 }
 
+.fade {
+    width:200px;
+    height: 200px;
+    background: red;
+    opacity:0;
+}
+
+.elementToFadeInAndOut {
+    animation: fadeInOut 1s linear forwards;
+}
+
+@keyframes fadeInOut {
+ 0% { opacity:0; }
+ 50% { opacity:1; } 
+ 100% { opacity:0; } 
+}
+
+.tooltip .tooltiptext {
+	transition: 170ms ease-in;
+}
+
 .tooltip:hover .tooltiptext {
 	visibility: visible;
 	opacity: 1;
@@ -232,7 +260,6 @@ code {
 		
 .icon:hover {
 	opacity: 0.7;
-	filter: alpha(opacity=40);
     transition: 170ms ease-in;
 }
 
@@ -247,15 +274,24 @@ code {
 }
 
 .icon {
-	transform: translate(-65%, 0);
+	transition: 170ms ease-in;
+	transform: translate(-63%, 0);
 }
 
 #myImg1, #myImg2, #myImg3 {
 	opacity: 0;
+	transition: 170ms ease-in;
+	cursor: pointer;
+}
+
+#myImg1:hover, #myImg2:hover, #myImg3:hover {
+	opacity: 1;
+	transition: 200ms ease-in;
 }
 
 #qr {
 	transform: translate(35%, 30%);
+	transition: 170ms ease-in;
 }
 
 #qr:hover {
@@ -276,6 +312,13 @@ code {
 	overflow: auto; 
 	background-color: rgb(0,0,0);
 	background-color: rgba(0,0,0,0.9); 
+	opacity: 0;
+	transition: 150ms ease-in;
+}
+
+.modal:hover {
+	opacity: 1;
+    transition: 120ms ease-in;
 }
 
 .modal-content {

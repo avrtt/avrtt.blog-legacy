@@ -10,6 +10,9 @@ const Navbar = () => {
           <NavLink to="/" activeStyle>
             Notes
           </NavLink>
+          <NavLink to="/memories" activeStyle>
+            Memories
+          </NavLink>
           <NavLink to="/about" activeStyle>
             About
           </NavLink>

@@ -38,7 +38,7 @@ const Memories = () => {
         </Helmet>
         
         <iframe src="https://drive.google.com/embeddedfolderview?id=13x8Cs1TIWZSYN_ywbWZOT4FivWQ--8wG#grid" width="100%" height="700" frameborder="0" title='drive'></iframe>
-        <iframe width='500' height='500' src='https://www.youtube.com/embed/videoseries?list=PLFzQnxF1skPuILXEWcVz-SJg0D5kzLHVv' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen style={playlistFrameStyle} title='playlist'></iframe>
+        <iframe width='560' height='315' src='https://www.youtube.com/embed/videoseries?list=PLFzQnxF1skPuILXEWcVz-SJg0D5kzLHVv' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen style={playlistFrameStyle} title='playlist'></iframe>
         
         <div id="map-container" style={divStyle}>
 			<iframe id="map-embed" src="https://www.google.com/maps/d/embed?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ehbc=2E312F" style={mapFrameStyle} title="Travel Map" />

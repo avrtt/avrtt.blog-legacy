@@ -11,9 +11,9 @@ itemData.sort(function (a, b) {
   return b.id - a.id;
 });
 
-const TITLE = 'Notes - lenferdetroud.github.io'
+const TITLE = 'Posts - lenferdetroud.github.io'
 
-const Home = () => {
+const Posts = () => {
   return (
 	<motion.div
 		initial={{opacity: 0 }}
@@ -52,4 +52,4 @@ const Home = () => {
   );
 };
   
-export default Home;
+export default Posts;

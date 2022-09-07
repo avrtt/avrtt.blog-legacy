@@ -8,10 +8,10 @@ const Navbar = () => {
       <Nav>
         <NavMenu>
           <NavLink to="/" activeStyle>
-            Notes
+            Posts
           </NavLink>
-          <NavLink to="/memories" activeStyle>
-            Memories
+          <NavLink to="/diary" activeStyle>
+            Diary
           </NavLink>
           <NavLink to="/about" activeStyle>
             About

@@ -374,8 +374,29 @@ code {
 	}
 }
 
+.achievements {
+	margin-left: 25%;
+	margin-top: 100px;
+	font-weight: bold;
+	color: #8e8e8e;
+}
 
+.c, .u {
+	margin-right: 10px;
+	display: inline-block;
+	height: 100%;
+	width: 32px;
+	vertical-align: middle;
+	opacity: 0.6
+}
 
+.u {
+	opacity: 0;
+}
+
+.chatWrapper {
+	margin-top: 100px;
+}
 
 
 

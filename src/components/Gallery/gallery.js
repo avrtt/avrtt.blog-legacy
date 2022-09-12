@@ -44,7 +44,7 @@ const Gallery = ({galleryImages}) => {
           <FontAwesomeIcon icon={faCircleChevronLeft} className='btnPrev' onClick={prevSlide} />
           <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextSlide} />
           <div className='fullScreenImage' onClick={handleCloseModal}> 
-            <img src={galleryImages[slideNumber].img} alt='' />
+            <img src={galleryImages[slideNumber].img} alt='' referrerpolicy="no-referrer" />
             <div class='desc'>{galleryImages[slideNumber].desc} <br/><div class='date'>{galleryImages[slideNumber].date}</div></div>
           </div>
         </div>

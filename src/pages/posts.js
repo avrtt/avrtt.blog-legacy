@@ -6,6 +6,7 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion';
+import TelegramComments from 'react-telegram-comments';
 
 itemData.sort(function (a, b) {
   return b.id - a.id;
@@ -47,6 +48,9 @@ const Posts = () => {
 				))}
 			</ImageList>
 		</Box>
+		
+		<div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId='posts' showDislikes={true} /></div>
+
 
     </motion.div>
   );

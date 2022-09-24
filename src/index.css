@@ -149,23 +149,6 @@ code {
 	transform: scale(0.95);
 }
 
-.post-footer {
-    font-size: 15px;
-    padding-top: 50px;
-}
-
-.published {
-    width: 12px;
-    height: 12px;
-    padding-right: 3px;
-}
-
-.views {
-    width: 12px;
-    height: 12px;
-    padding-right: 6px;
-}
-
 .tooltip {
 	position: relative;
 	display: inline-block;
@@ -375,34 +358,91 @@ code {
 }
 
 .achievements {
-	margin-left: 25%;
-	margin-top: 100px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 15px;
 	font-weight: bold;
 	color: #8e8e8e;
 }
 
-.c, .u {
+.c, .u, .y, .n {
 	margin-right: 10px;
 	display: inline-block;
 	height: 100%;
 	width: 32px;
 	vertical-align: middle;
-	opacity: 0.6
+	opacity: 0.6;
 }
 
-.u {
+.u, .n {
 	opacity: 0;
+	pointer-events: none;
+	cursor: default;
 }
 
 .chatWrapper {
 	margin-top: 100px;
 }
 
+#link, #info {
+	width: 29px;
+	transition: 120ms ease-in;
+}
 
+#info.y {
+	opacity: 0.4;
+}
 
+#info:hover {
+	opacity: 0.75;
+	transition: 120ms ease-in;
+}
 
+#link:hover {
+	opacity: 1;
+	transition: 120ms ease-in;
+}
 
+.tooltipAchievements {
+	position: relative;
+	display: inline-block;
+}
 
+.tooltipAchievements .tooltiptextAchievements {
+	font-size: 16px;
+	visibility: hidden;
+	width: 400px;
+	background-color: #444444;
+	color: #f2f2f2;
+	text-align: center;
+	border-radius: 6px;
+	padding: 0 3px;
+	position: absolute;
+	z-index: 1;
+	bottom: 120%;
+	left: 50%;
+	margin-left: -205px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.tooltipAchievements .tooltiptextAchievements::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+	border-style: solid;
+	border-color: transparent transparent transparent;
+}
+
+.tooltipAchievements .tooltiptextAchievements {
+	transition: 170ms ease-in;
+}
+
+.tooltipAchievements:hover .tooltiptextAchievements {
+	visibility: visible;
+	opacity: 1;
+}
 
 
 

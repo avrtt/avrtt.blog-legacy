@@ -3,20 +3,6 @@ import { Helmet } from 'react-helmet'
 import { motion } from 'framer-motion';
 
 const TITLE = 'About - lenferdetroud.github.io'
-  
-const divStyle = {
-	width: '100%',
-	height: '540px',
-	overflow: 'hidden'
-}  
-
-const mapFrameStyle = {
-	border: 'none',
-	width: '100%',
-	height: '540px',
-	position: 'relative',
-	top: '-50px'
-}; 
 
 const About = () => {
   return (
@@ -31,10 +17,6 @@ const About = () => {
         </Helmet>
         
         <p>There's nothing here yet.</p>
-        
-        <div id="map-container" style={divStyle}>
-			<iframe id="map-embed" src="https://www.google.com/maps/d/embed?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ehbc=2E312F" style={mapFrameStyle} title="Travel Map" />
-		</div>
         
     </motion.div>
   );

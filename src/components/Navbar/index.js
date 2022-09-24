@@ -13,6 +13,9 @@ const Navbar = () => {
           <NavLink to="/diary" activeStyle>
             Diary
           </NavLink>
+          <NavLink to="/achievements" activeStyle>
+            Achievements
+          </NavLink>
           <NavLink to="/about" activeStyle>
             About
           </NavLink>

@@ -5,6 +5,8 @@ import Posts from '../pages/posts';
 import About from '../pages/about';
 import Diary from '../pages/diary';
 import Donate from '../pages/donate';
+import Achievements from '../pages/achievements';
+
 import Post1 from '../pages/posts/nn_part_one';
 
 function AnimatedRoutes() {
@@ -16,6 +18,7 @@ function AnimatedRoutes() {
 				<Route path='/about' element={<About/>} />
 				<Route path='/diary' element={<Diary/>} />
 				<Route path='/donate' element={<Donate/>} />
+				<Route path='/achievements' element={<Achievements/>} />
 				
 				<Route path='/posts/nn_part_one' element={<Post1/>} />
 				

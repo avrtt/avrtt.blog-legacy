@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { itemData } from '../itemData';
 const TITLE = itemData.find(x => x.id === 1).title + ' - lenferdetroud.github.io'
 
-const Post1 = ({ blockMap }) => {	
+export default function Post() {	
 	return (
 		<motion.div
 			initial={{opacity: 0 }}
@@ -19,4 +19,3 @@ const Post1 = ({ blockMap }) => {
 	);
 };
   
-export default Post1;

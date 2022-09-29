@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.12b0c05a.css",
-    "main.js": "/static/js/main.1eb7ed80.js",
+    "main.js": "/static/js/main.41e9a35b.js",
     "pdf.worker.js": "/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/neural_networks.jpg": "/static/media/neural_networks.0ebc05e4fccb93151eb8.jpg",
     "static/media/sample.pdf": "/static/media/sample.11ed5683ffd08b943082.pdf",
@@ -23,10 +23,10 @@
     "static/media/checked.svg": "/static/media/checked.5f61d0f2a434a05b8e24d33cf058ca62.svg",
     "static/media/search.svg": "/static/media/search.f79c8c4f2f424b2647d557172012413d.svg",
     "main.12b0c05a.css.map": "/static/css/main.12b0c05a.css.map",
-    "main.1eb7ed80.js.map": "/static/js/main.1eb7ed80.js.map"
+    "main.41e9a35b.js.map": "/static/js/main.41e9a35b.js.map"
   },
   "entrypoints": [
     "static/css/main.12b0c05a.css",
-    "static/js/main.1eb7ed80.js"
+    "static/js/main.41e9a35b.js"
   ]
 }

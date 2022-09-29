@@ -10,6 +10,7 @@ import pdf from "./neural_networks.pdf";
 const postNumber = 1
 
 const TITLE = itemData.find(x => x.id === postNumber).title + ' - lenferdetroud.github.io';
+const keyString = itemData.find(x => x.id === postNumber).keyString;
 const pdfStyle = {
 	'zoom': '140%',
 }
@@ -43,10 +44,10 @@ export default function Post() {
 						)}
 					</Document>
 				</div>
-				<p></p><a href={'https://github.com/lenferdetroud/lenferdetroud.github.io/raw/master/src/pages/posts/' + String(itemData.find(x => x.id === postNumber).key) + '.pdf'}>Download PDF</a>
+				<p></p><a href={'https://github.com/lenferdetroud/lenferdetroud.github.io/raw/master/src/pages/posts/' + keyString + '.pdf'}>Download PDF</a>
 			</center>
         
-			<div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId={String(itemData.find(x => x.id === postNumber).key)} showDislikes={true} /></div>
+			<div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId={keyString} showDislikes={true} /></div>
         
 		</motion.div>
 	);

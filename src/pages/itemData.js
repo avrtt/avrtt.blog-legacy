@@ -3,8 +3,8 @@ import ensembles from "./img/posts/ensembles.jpg"
 
 
 export const itemData = [
-	{id: 1, key: neural_networks, title: "Neural Networks", href: "./posts/neural_networks"},
-    {id: 2, key: ensembles, title: "Ensembles Methods", href: "./posts/ensembles"},
+	{id: 1, key: neural_networks, keyString: 'neural_networks', title: "Neural Networks", href: "./posts/neural_networks"},
+    {id: 2, key: ensembles, keyString: 'ensembles', title: "Ensembles Methods", href: "./posts/ensembles"},
 ];
 
 export const galleryImages = [

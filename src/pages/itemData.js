@@ -1,7 +1,10 @@
-import nn_part_one from "./img/nn_part_one.jpg"
+import neural_networks from "./img/posts/neural_networks.jpg"
+import ensembles from "./img/posts/ensembles.jpg"
+
 
 export const itemData = [
-	{id: 1, img: nn_part_one, title: "Neural Networks: Part 1", href: "./posts/nn_part_one"},
+	{id: 1, key: neural_networks, title: "Neural Networks", href: "./posts/neural_networks"},
+    {id: 2, key: ensembles, title: "Ensembles Methods", href: "./posts/ensembles"},
 ];
 
 export const galleryImages = [

@@ -2,9 +2,9 @@ import React from 'react';
 import { Helmet } from 'react-helmet'
 import { motion } from 'framer-motion';
 import TelegramComments from 'react-telegram-comments';
-import checkbox from "./img/checked.svg";
-import link from "./img/link.svg";
-import info from "./img/info.svg";
+import checkbox from "./img/achievements/checked.svg";
+import link from "./img/achievements/link.svg";
+import info from "./img/achievements/info.svg";
 import { achievementsArr } from "./itemData"
 
 const TITLE = 'Achievements - lenferdetroud.github.io'

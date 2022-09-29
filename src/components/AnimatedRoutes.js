@@ -7,7 +7,8 @@ import Diary from '../pages/diary';
 import Donate from '../pages/donate';
 import Achievements from '../pages/achievements';
 
-import Post1 from '../pages/posts/nn_part_one';
+import Post1 from '../pages/posts/neural_networks';
+import Post2 from '../pages/posts/ensembles';
 
 function AnimatedRoutes() {
 	const location = useLocation();
@@ -20,7 +21,8 @@ function AnimatedRoutes() {
 				<Route path='/donate' element={<Donate/>} />
 				<Route path='/achievements' element={<Achievements/>} />
 				
-				<Route path='/posts/nn_part_one' element={<Post1/>} />
+				<Route path='/posts/neural_networks' element={<Post1/>} />
+				<Route path='/posts/ensembles' element={<Post2/>} />
 				
 			</Routes>
 		</AnimatePresence>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5fb6b2e.css",
-    "main.js": "/static/js/main.78003237.js",
+    "main.css": "/static/css/main.12b0c05a.css",
+    "main.js": "/static/js/main.842670ea.js",
     "pdf.worker.js": "/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/neural_networks.jpg": "/static/media/neural_networks.0ebc05e4fccb93151eb8.jpg",
     "static/media/sample.pdf": "/static/media/sample.04b3222dbb5a07580200.pdf",
@@ -21,11 +21,11 @@
     "static/media/telegram.svg": "/static/media/telegram.ae26ebec6cf4561ae11a75aa748d76b3.svg",
     "static/media/checked.svg": "/static/media/checked.5f61d0f2a434a05b8e24d33cf058ca62.svg",
     "static/media/search.svg": "/static/media/search.f79c8c4f2f424b2647d557172012413d.svg",
-    "main.d5fb6b2e.css.map": "/static/css/main.d5fb6b2e.css.map",
-    "main.78003237.js.map": "/static/js/main.78003237.js.map"
+    "main.12b0c05a.css.map": "/static/css/main.12b0c05a.css.map",
+    "main.842670ea.js.map": "/static/js/main.842670ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5fb6b2e.css",
-    "static/js/main.78003237.js"
+    "static/css/main.12b0c05a.css",
+    "static/js/main.842670ea.js"
   ]
 }

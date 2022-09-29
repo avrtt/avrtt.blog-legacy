@@ -43,7 +43,7 @@ export default function Post() {
 						)}
 					</Document>
 				</div>
-				<p></p><a href={'https://github.com/lenferdetroud/lenferdetroud.github.io/raw/master/src/pages/posts/' + itemData.find(x => x.id === postNumber).key + '.pdf'}>Download PDF</a>
+				<p></p><a href={'https://github.com/lenferdetroud/lenferdetroud.github.io/raw/master/src/pages/posts/' + String(itemData.find(x => x.id === postNumber).key) + '.pdf'}>Download PDF</a>
 			</center>
         
 			<div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId={String(itemData.find(x => x.id === postNumber).key)} showDislikes={true} /></div>

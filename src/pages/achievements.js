@@ -60,7 +60,7 @@ const Achievements = () => {
 			<iframe id="map-embed" src="https://www.google.com/maps/d/embed?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ehbc=2E312F" style={mapFrameStyle} title="Travel Map" />
 		</div>
         
-        <div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} ccustomColor='000000' ommentsNumber={5} pageId='achievements' showDislikes={true} /></div>
+        <div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId='achievements' showDislikes={true} /></div>
          
     </motion.div>
   );

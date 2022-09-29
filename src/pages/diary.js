@@ -32,7 +32,7 @@ const Diary = () => {
 			<iframe width='560' height='315' src='https://www.youtube.com/embed/videoseries?list=PLFzQnxF1skPuILXEWcVz-SJg0D5kzLHVv' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen title='playlist'></iframe>
         </div>
                 
-        <div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} ccustomColor='000000' ommentsNumber={5} pageId='diary' showDislikes={true} /></div>
+        <div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId='diary' showDislikes={true} /></div>
          
     </motion.div>
   );

@@ -6,7 +6,7 @@ import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import TelegramComments from 'react-telegram-comments';
 
-import pdf from "./neural_networks.pdf";
+import pdf from "./sample.pdf";
 const postNumber = 1
 
 const TITLE = itemData.find(x => x.id === postNumber).title + ' - lenferdetroud.github.io';

@@ -80,6 +80,7 @@ const Donate = () => {
 			<div class="currency-name"><b>XMR</b> (MONERO NETWORK)</div>
 		</div>
 		</motion.div>
+		
 	<div id="myModal" class="modal">
 		<div class="close">
 			<img class="modal-content" id="img01" alt="modal-img" />

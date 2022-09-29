@@ -21,7 +21,7 @@ const Footer = () => {
             <FooterLink href="https://www.google.com/maps/d/viewer?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ll=0.3349379679001004%2C0&z=2"><img src={Map} style={{ height: 40, width: 40 }} alt="map-logo" /></FooterLink>
 		</Row>
 		<Row>
-			copyright © lenferdetroud
+			<p>copyright © lenferdetroud</p>
 		</Row>
       </Container>
     </Box>

@@ -15,7 +15,7 @@ const TITLE = 'Posts - lenferdetroud.github.io'
 
 const Posts = () => {
   return (
-	<motion.div
+	<motion.div class='noselect'
 		initial={{opacity: 0 }}
 		animate={{opacity: 1 }}
 		exit={{opacity: 0 }}

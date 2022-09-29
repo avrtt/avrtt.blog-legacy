@@ -47,6 +47,12 @@ code {
 #map-container {
 	border: thick double #c0c0c0;
 	margin-top: 100px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none;
+            user-select: none;
 }
 
 #map-embed {
@@ -202,6 +208,12 @@ code {
 
 .tooltip .tooltiptext {
 	transition: 170ms ease-in;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .tooltip:hover .tooltiptext {
@@ -221,6 +233,12 @@ code {
 	top: 50%;
     left: 50%;
     margin-right: -50%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .container .wallet1 {
@@ -250,6 +268,12 @@ code {
 	background-color: transparent; 
 	color: #aba7a7;
 	margin-left: 12px;
+	-webkit-touch-callout: text;
+    -webkit-user-select: text; 
+     -khtml-user-select: text;
+       -moz-user-select: text; 
+        -ms-user-select: text;
+            user-select: text;
 }
 		
 .address:hover {
@@ -297,6 +321,12 @@ code {
 	background-color: rgba(0,0,0,0.9); 
 	opacity: 0;
 	transition: 150ms ease-in;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .modal:hover {
@@ -372,6 +402,12 @@ code {
 	width: 32px;
 	vertical-align: middle;
 	opacity: 0.6;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .u, .n {
@@ -382,11 +418,23 @@ code {
 
 .chatWrapper {
 	margin-top: 100px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none;
+            user-select: none;
 }
 
 #link, #info {
 	width: 29px;
 	transition: 120ms ease-in;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none;
+            user-select: none;
 }
 
 #info.y {
@@ -444,6 +492,14 @@ code {
 	opacity: 1;
 }
 
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none;
+            user-select: none;
+}
 
 
 

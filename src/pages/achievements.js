@@ -40,7 +40,7 @@ const Achievements = () => {
                 <tbody>
                     {achievementsArr && achievementsArr.map(achievement =>                  
                         <tr>
-							<td>{achievement.type}&nbsp;&nbsp;&nbsp;</td>
+							<td class='noselect'>{achievement.type}&nbsp;&nbsp;&nbsp;</td>
 							<img src={checkbox} class={achievement.status} alt='checkbox'/>
                             <td width='600px'>{achievement.text}</td>
                             <td>

@@ -1,10 +1,102 @@
-import neural_networks from "./img/posts/neural_networks.jpg"
-import ensembles from "./img/posts/ensembles.jpg"
+import img1 from "./img/posts/math_for_ds.jpg"
+import img2 from "./img/posts/hypothesis_testing.jpg"
+import img3 from "./img/posts/algorithms_and_data_structures.jpg"
+import img4 from "./img/posts/ml_basics.jpg"
+import img5 from "./img/posts/classification_metrics.jpg"
+import img6 from "./img/posts/gradient_descent_optimization.jpg"
+import img7 from "./img/posts/linear_regression.jpg"
+import img8 from "./img/posts/regularization.jpg"
+import img9 from "./img/posts/logistic_regression.jpg"
+import img10 from "./img/posts/bayesian_algorithms.jpg"
+import img11 from "./img/posts/decision_trees.jpg"
+import img12 from "./img/posts/knn.jpg"
+import img13 from "./img/posts/svm.jpg"
+import img14 from "./img/posts/clustering_metrics.jpg"
+import img15 from "./img/posts/clustering_algorithms.jpg"
+import img16 from "./img/posts/dimensionality_reduction.jpg"
+import img17 from "./img/posts/ml_model_tuning.jpg"
+import img18 from "./img/posts/eda.jpg"
+import img19 from "./img/posts/sklearn.jpg"
+import img20 from "./img/posts/tensorflow_and_keras.jpg"
+import img21 from "./img/posts/cv.jpg"
+import img22 from "./img/posts/nlp.jpg"
+import img23 from "./img/posts/recommender_systems.jpg"
+import img24 from "./img/posts/anomaly_detection.jpg"
+import img25 from "./img/posts/ensembles.jpg"
+import img26 from "./img/posts/neural_networks_concepts.jpg"
+import img27 from "./img/posts/time_series.jpg"
+import img28 from "./img/posts/sql_for_ds.jpg"
+import img29 from "./img/posts/linux_and_cs_for_ds.jpg"
+import img30 from "./img/posts/web_services_for_ds.jpg"
+import img31 from "./img/posts/bigdata_bi_and_mlops.jpg"
+import img32 from "./img/posts/neural_networks_architectures.jpg"
 
+import pdf1 from "./posts/sample.pdf"
+import pdf2 from "./posts/sample.pdf"
+import pdf3 from "./posts/sample.pdf"
+import pdf4 from "./posts/sample.pdf"
+import pdf5 from "./posts/sample.pdf"
+import pdf6 from "./posts/sample.pdf"
+import pdf7 from "./posts/sample.pdf"
+import pdf8 from "./posts/sample.pdf"
+import pdf9 from "./posts/sample.pdf"
+import pdf10 from "./posts/sample.pdf"
+import pdf11 from "./posts/sample.pdf"
+import pdf12 from "./posts/sample.pdf"
+import pdf13 from "./posts/sample.pdf"
+import pdf14 from "./posts/sample.pdf"
+import pdf15 from "./posts/sample.pdf"
+import pdf16 from "./posts/sample.pdf"
+import pdf17 from "./posts/sample.pdf"
+import pdf18 from "./posts/sample.pdf"
+import pdf19 from "./posts/sample.pdf"
+import pdf20 from "./posts/sample.pdf"
+import pdf21 from "./posts/sample.pdf"
+import pdf22 from "./posts/sample.pdf"
+import pdf23 from "./posts/sample.pdf"
+import pdf24 from "./posts/sample.pdf"
+import pdf25 from "./posts/sample.pdf"
+import pdf26 from "./posts/sample.pdf"
+import pdf27 from "./posts/sample.pdf"
+import pdf28 from "./posts/sample.pdf"
+import pdf29 from "./posts/sample.pdf"
+import pdf30 from "./posts/sample.pdf"
+import pdf31 from "./posts/sample.pdf"
+import pdf32 from "./posts/sample.pdf"
 
 export const itemData = [
-	{id: 1, key: neural_networks, keyString: 'neural_networks', title: "Neural Networks", href: "./posts/neural_networks"},
-    {id: 2, key: ensembles, keyString: 'ensembles', title: "Ensembles Methods", href: "./posts/ensembles"},
+	{id: 1, pdf: pdf1, img: img1, key: 'math_for_ds', title: "Math for DS", href: "./posts/math_for_ds"},
+    {id: 2, pdf: pdf2, img: img2, key: 'hypothesis_testing', title: "Hypothesis testing", href: "./posts/hypothesis_testing"},
+    {id: 3, pdf: pdf3, img: img3, key: 'algorithms_and_data_structures', title: "Algorithms and data structures", href: "./posts/algorithms_and_data_structures"},
+    {id: 4, pdf: pdf4, img: img4, key: 'ml_basics', title: "ML basic concepts and tools", href: "./posts/ml_basics"},
+    {id: 5, pdf: pdf5, img: img5, key: 'classification_metrics', title: "Classification metrics", href: "./posts/classification_metrics"},
+    {id: 6, pdf: pdf6, img: img6, key: 'gradient_descent_optimization', title: "Gradient descent optimization", href: "./posts/gradient_descent_optimization"},
+    {id: 7, pdf: pdf7, img: img7, key: 'linear_regression', title: "Linear regression", href: "./posts/linear_regression"},
+    {id: 8, pdf: pdf8, img: img8, key: 'regularization', title: "Regularization", href: "./posts/regularization"},
+    {id: 9, pdf: pdf9, img: img9, key: 'logistic_regression', title: "Logistic regression", href: "./posts/logistic_regression"},
+    {id: 10, pdf: pdf10, img: img10, key: 'bayesian_algorithms', title: "Bayesian algorithms", href: "./posts/bayesian_algorithms"},
+    {id: 11, pdf: pdf11, img: img11, key: 'decision_trees', title: "Decision trees", href: "./posts/decision_trees"},
+    {id: 12, pdf: pdf12, img: img12, key: 'knn', title: "KNN algorithm", href: "./posts/knn"},
+    {id: 13, pdf: pdf13, img: img13, key: 'svm', title: "SVM algorithm", href: "./posts/svm"},
+    {id: 14, pdf: pdf14, img: img14, key: 'clustering_metrics', title: "Clustering metrics", href: "./posts/clustering_metrics"},
+    {id: 15, pdf: pdf15, img: img15, key: 'clustering_algorithms', title: "Clustering algorithms", href: "./posts/clustering_algorithms"},
+    {id: 16, pdf: pdf16, img: img16, key: 'dimensionality_reduction', title: "Dimensionality reduction", href: "./posts/dimensionality_reduction"},
+    {id: 17, pdf: pdf17, img: img17, key: 'ml_model_tuning', title: "ML model tuning", href: "./posts/ml_model_tuning"},
+    {id: 18, pdf: pdf18, img: img18, key: 'eda', title: "Exploratory data analysis", href: "./posts/eda"},
+    {id: 19, pdf: pdf19, img: img19, key: 'sklearn', title: "Introduction to Scikit-learn", href: "./posts/sklearn"},
+    {id: 20, pdf: pdf20, img: img20, key: 'tensorflow_and_keras', title: "TensorFlow and Keras", href: "./posts/tensorflow_and_keras"},
+    {id: 21, pdf: pdf21, img: img21, key: 'cv', title: "Computer vision", href: "./posts/cv"},
+    {id: 22, pdf: pdf22, img: img22, key: 'nlp', title: "Natural language processing", href: "./posts/nlp"},
+    {id: 23, pdf: pdf23, img: img23, key: 'recommender_systems', title: "Recommender systems", href: "./posts/recommender_systems"},
+    {id: 24, pdf: pdf24, img: img24, key: 'anomaly_detection', title: "Anomaly detection", href: "./posts/anomaly_detection"},
+    {id: 25, pdf: pdf25, img: img25, key: 'ensembles', title: "Ensemble methods", href: "./posts/ensembles"},
+    {id: 26, pdf: pdf26, img: img26, key: 'neural_networks_concepts', title: "Neural networks concepts", href: "./posts/neural_networks_concepts"},
+    {id: 27, pdf: pdf27, img: img27, key: 'time_series', title: "Time series", href: "./posts/time_series"},
+    {id: 28, pdf: pdf28, img: img28, key: 'sql_for_ds', title: "SQL for DS", href: "./posts/sql_for_ds"},
+    {id: 29, pdf: pdf29, img: img29, key: 'linux_and_cs_for_ds', title: "Linux & CS basics for DS", href: "./posts/linux_and_cs_for_ds"},
+    {id: 30, pdf: pdf30, img: img30, key: 'web_services_for_ds', title: "Web services for DS", href: "./posts/web_services_for_ds"},
+    {id: 31, pdf: pdf31, img: img31, key: 'bigdata_bi_and_mlops', title: "Big Data, BI & MLOps", href: "./posts/bigdata_bi_and_mlops"},
+    {id: 32, pdf: pdf32, img: img32, key: 'neural_networks_architectures', title: "Neural networks architectures", href: "./posts/neural_networks_architectures"},
 ];
 
 export const galleryImages = [

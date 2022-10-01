@@ -261,7 +261,7 @@ code {
 		
 .icon:hover {
 	opacity: 0.7;
-    transition: 170ms ease-in;
+    transition: 110ms ease-in;
 }
 
 .address {
@@ -281,7 +281,7 @@ code {
 }
 
 .icon {
-	transition: 170ms ease-in;
+	transition: 110ms ease-in;
 	transform: translate(-63%, 0);
 }
 

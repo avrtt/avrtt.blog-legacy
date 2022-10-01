@@ -32,8 +32,8 @@ const Posts = () => {
 						<div class="hover">
 							<img
 								class="prew-home"
-								src={`${item.key}?w=248&fit=crop&auto=format`}
-								srcSet={`${item.key}?w=248&fit=crop&auto=format&dpr=2 2x`}
+								src={`${item.img}?w=248&fit=crop&auto=format`}
+								srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
 								alt="img_prev"
 								loading="lazy"
 							/>

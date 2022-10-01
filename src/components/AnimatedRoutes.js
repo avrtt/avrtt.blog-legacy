@@ -7,8 +7,38 @@ import Diary from '../pages/diary';
 import Donate from '../pages/donate';
 import Achievements from '../pages/achievements';
 
-import Post1 from '../pages/posts/neural_networks';
-import Post2 from '../pages/posts/ensembles';
+import Post1 from '../pages/posts/math_for_ds';
+import Post2 from '../pages/posts/hypothesis_testing';
+import Post3 from '../pages/posts/algorithms_and_data_structures';
+import Post4 from '../pages/posts/ml_basics';
+import Post5 from '../pages/posts/classification_metrics';
+import Post6 from '../pages/posts/gradient_descent_optimization';
+import Post7 from '../pages/posts/linear_regression';
+import Post8 from '../pages/posts/regularization';
+import Post9 from '../pages/posts/logistic_regression';
+import Post10 from '../pages/posts/bayesian_algorithms';
+import Post11 from '../pages/posts/decision_trees';
+import Post12 from '../pages/posts/knn';
+import Post13 from '../pages/posts/svm';
+import Post14 from '../pages/posts/clustering_metrics';
+import Post15 from '../pages/posts/clustering_algorithms';
+import Post16 from '../pages/posts/dimensionality_reduction';
+import Post17 from '../pages/posts/ml_model_tuning';
+import Post18 from '../pages/posts/eda';
+import Post19 from '../pages/posts/sklearn';
+import Post20 from '../pages/posts/tensorflow_and_keras';
+import Post21 from '../pages/posts/cv';
+import Post22 from '../pages/posts/nlp';
+import Post23 from '../pages/posts/recommender_systems';
+import Post24 from '../pages/posts/anomaly_detection';
+import Post25 from '../pages/posts/ensembles';
+import Post26 from '../pages/posts/neural_networks_concepts';
+import Post27 from '../pages/posts/time_series';
+import Post28 from '../pages/posts/sql_for_ds';
+import Post29 from '../pages/posts/linux_and_cs_for_ds';
+import Post30 from '../pages/posts/web_services_for_ds';
+import Post31 from '../pages/posts/bigdata_bi_and_mlops';
+import Post32 from '../pages/posts/neural_networks_architectures';
 
 function AnimatedRoutes() {
 	const location = useLocation();
@@ -21,8 +51,38 @@ function AnimatedRoutes() {
 				<Route path='/donate' element={<Donate/>} />
 				<Route path='/achievements' element={<Achievements/>} />
 				
-				<Route path='/posts/neural_networks' element={<Post1/>} />
-				<Route path='/posts/ensembles' element={<Post2/>} />
+				<Route path='/posts/math_for_ds' element={<Post1/>} />
+				<Route path='/posts/hypothesis_testing' element={<Post2/>} />
+				<Route path='/posts/algorithms_and_data_structures' element={<Post3/>} />
+				<Route path='/posts/ml_basics' element={<Post4/>} />
+				<Route path='/posts/classification_metrics' element={<Post5/>} />
+				<Route path='/posts/gradient_descent_optimization' element={<Post6/>} />
+				<Route path='/posts/linear_regression' element={<Post7/>} />
+				<Route path='/posts/regularization' element={<Post8/>} />
+				<Route path='/posts/logistic_regression' element={<Post9/>} />
+				<Route path='/posts/bayesian_algorithms' element={<Post10/>} />
+				<Route path='/posts/decision_trees' element={<Post11/>} />
+				<Route path='/posts/knn' element={<Post12/>} />
+				<Route path='/posts/svm' element={<Post13/>} />
+				<Route path='/posts/clustering_metrics' element={<Post14/>} />
+				<Route path='/posts/clustering_algorithms' element={<Post15/>} />
+				<Route path='/posts/dimensionality_reduction' element={<Post16/>} />
+				<Route path='/posts/ml_model_tuning' element={<Post17/>} />
+				<Route path='/posts/eda' element={<Post18/>} />
+				<Route path='/posts/sklearn' element={<Post19/>} />
+				<Route path='/posts/tensorflow_and_keras' element={<Post20/>} />
+				<Route path='/posts/cv' element={<Post21/>} />
+				<Route path='/posts/nlp' element={<Post22/>} />
+				<Route path='/posts/recommender_systems' element={<Post23/>} />
+				<Route path='/posts/anomaly_detection' element={<Post24/>} />
+				<Route path='/posts/ensembles' element={<Post25/>} />
+				<Route path='/posts/neural_networks' element={<Post26/>} />
+				<Route path='/posts/time_series' element={<Post27/>} />
+				<Route path='/posts/sql_for_ds' element={<Post28/>} />
+				<Route path='/posts/linux_and_cs_for_ds' element={<Post29/>} />
+				<Route path='/posts/web_services_for_ds' element={<Post30/>} />
+				<Route path='/posts/bigdata_bi_and_mlops' element={<Post31/>} />
+				<Route path='/posts/neural_networks_architectures' element={<Post32/>} />
 				
 			</Routes>
 		</AnimatePresence>

@@ -37,10 +37,10 @@ export const Row = styled.div`
 `;
    
 export const FooterLink = styled.a`
-  transition: 170ms ease-in;
+  transition: 110ms ease-in;
   &:hover {
-      opacity: 0.7;
       filter: alpha(opacity=40);
-      transition: 170ms ease-in;
+      transition: 110ms ease-in;
+      transform: scale(1.1);
   }
 `;

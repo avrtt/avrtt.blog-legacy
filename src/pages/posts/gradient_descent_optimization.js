@@ -7,11 +7,11 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import TelegramComments from 'react-telegram-comments';
 import Frog from '../img/mysterious_frog.png';
 
-import pdf from "./sample.pdf";
-const postNumber = 1
+const postNumber = itemData.find(x => x.key === 'gradient_descent_optimization').id;
 
-const TITLE = itemData.find(x => x.id === postNumber).title + ' - lenferdetroud.github.io';
-const keyString = itemData.find(x => x.id === postNumber).keyString;
+const pdf = itemData.find(x => x.id === postNumber).pdf;
+const title = itemData.find(x => x.id === postNumber).title + ' - lenferdetroud.github.io';
+const key = itemData.find(x => x.id === postNumber).key;
 
 export default function Post() {  
 	
@@ -29,7 +29,7 @@ export default function Post() {
 			animate={{opacity: 1 }}
 			exit={{opacity: 0 }}
 			transition={{ duration: 0.15 }}>
-			<Helmet><title>{ TITLE }</title></Helmet>
+			<Helmet><title>{ title }</title></Helmet>
         	
 			<center>
 				<div>
@@ -37,7 +37,7 @@ export default function Post() {
 						file={pdf} 
 						onLoadSuccess={onDocumentLoadSuccess} 
 						error={<div><img src={Frog} alt='frog'/><h3>Something went wrong and now you see the frog.</h3></div>}
-						loading={<h3>Loading...</h3>}
+						loading={<h3>Loading «{itemData.find(x => x.id === postNumber).title}»...</h3>}
 						noData={<div><img src={Frog} alt='frog'/><h3>Something went wrong and now you see the frog.</h3></div>}
 						renderMode={'svg'}>
 						{Array.from(new Array(numPages), (el,index) => (
@@ -52,10 +52,10 @@ export default function Post() {
 							/>))}
 					</Document>
 				</div>
-				<p></p><a href={'https://github.com/lenferdetroud/lenferdetroud.github.io/raw/master/src/pages/posts/' + keyString + '.pdf'}>Download PDF</a>
+				<p></p><a href={'https://github.com/lenferdetroud/lenferdetroud.github.io/raw/master/src/pages/posts/' + key + '.pdf'}>Download PDF</a>
 			</center>
         
-			<div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId={keyString} showDislikes={true} /></div>
+			<div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId={key} showDislikes={true} /></div>
         
 		</motion.div>
 	);

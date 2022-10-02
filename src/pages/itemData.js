@@ -11,25 +11,24 @@ import img10 from "./img/posts/bayesian_algorithms.jpg"
 import img11 from "./img/posts/decision_trees.jpg"
 import img12 from "./img/posts/knn.jpg"
 import img13 from "./img/posts/svm.jpg"
-import img14 from "./img/posts/clustering_metrics.jpg"
-import img15 from "./img/posts/clustering_algorithms.jpg"
-import img16 from "./img/posts/dimensionality_reduction.jpg"
-import img17 from "./img/posts/ml_model_tuning.jpg"
-import img18 from "./img/posts/eda.jpg"
-import img19 from "./img/posts/sklearn.jpg"
-import img20 from "./img/posts/tensorflow_and_keras.jpg"
-import img21 from "./img/posts/cv.jpg"
-import img22 from "./img/posts/nlp.jpg"
-import img23 from "./img/posts/recommender_systems.jpg"
-import img24 from "./img/posts/anomaly_detection.jpg"
-import img25 from "./img/posts/ensembles.jpg"
-import img26 from "./img/posts/neural_networks_concepts.jpg"
-import img27 from "./img/posts/time_series.jpg"
-import img28 from "./img/posts/sql_for_ds.jpg"
-import img29 from "./img/posts/linux_and_cs_for_ds.jpg"
-import img30 from "./img/posts/web_services_for_ds.jpg"
-import img31 from "./img/posts/bigdata_bi_and_mlops.jpg"
-import img32 from "./img/posts/neural_networks_architectures.jpg"
+import img14 from "./img/posts/clustering.jpg"
+import img15 from "./img/posts/dimensionality_reduction.jpg"
+import img16 from "./img/posts/ml_model_tuning.jpg"
+import img17 from "./img/posts/eda.jpg"
+import img18 from "./img/posts/sklearn.jpg"
+import img19 from "./img/posts/tensorflow_and_keras.jpg"
+import img20 from "./img/posts/cv.jpg"
+import img21 from "./img/posts/nlp.jpg"
+import img22 from "./img/posts/recommender_systems.jpg"
+import img23 from "./img/posts/anomaly_detection.jpg"
+import img24 from "./img/posts/ensembles.jpg"
+import img25 from "./img/posts/neural_network_concepts.jpg"
+import img26 from "./img/posts/time_series.jpg"
+import img27 from "./img/posts/sql_for_ds.jpg"
+import img28 from "./img/posts/linux_and_cs_for_ds.jpg"
+import img29 from "./img/posts/web_services_for_ds.jpg"
+import img30 from "./img/posts/intro_to_bigdata.jpg"
+import img31 from "./img/posts/neural_network_architectures.jpg"
 
 import pdf1 from "./posts/sample.pdf"
 import pdf2 from "./posts/sample.pdf"
@@ -62,7 +61,6 @@ import pdf28 from "./posts/sample.pdf"
 import pdf29 from "./posts/sample.pdf"
 import pdf30 from "./posts/sample.pdf"
 import pdf31 from "./posts/sample.pdf"
-import pdf32 from "./posts/sample.pdf"
 
 export const itemData = [
 	{id: 1, pdf: pdf1, img: img1, key: 'math_for_ds', title: "Math for DS", href: "./posts/math_for_ds"},
@@ -78,25 +76,24 @@ export const itemData = [
     {id: 11, pdf: pdf11, img: img11, key: 'decision_trees', title: "Decision trees", href: "./posts/decision_trees"},
     {id: 12, pdf: pdf12, img: img12, key: 'knn', title: "KNN algorithm", href: "./posts/knn"},
     {id: 13, pdf: pdf13, img: img13, key: 'svm', title: "SVM algorithm", href: "./posts/svm"},
-    {id: 14, pdf: pdf14, img: img14, key: 'clustering_metrics', title: "Clustering metrics", href: "./posts/clustering_metrics"},
-    {id: 15, pdf: pdf15, img: img15, key: 'clustering_algorithms', title: "Clustering algorithms", href: "./posts/clustering_algorithms"},
-    {id: 16, pdf: pdf16, img: img16, key: 'dimensionality_reduction', title: "Dimensionality reduction", href: "./posts/dimensionality_reduction"},
-    {id: 17, pdf: pdf17, img: img17, key: 'ml_model_tuning', title: "ML model tuning", href: "./posts/ml_model_tuning"},
-    {id: 18, pdf: pdf18, img: img18, key: 'eda', title: "Exploratory data analysis", href: "./posts/eda"},
-    {id: 19, pdf: pdf19, img: img19, key: 'sklearn', title: "Introduction to Scikit-learn", href: "./posts/sklearn"},
-    {id: 20, pdf: pdf20, img: img20, key: 'tensorflow_and_keras', title: "TensorFlow and Keras", href: "./posts/tensorflow_and_keras"},
-    {id: 21, pdf: pdf21, img: img21, key: 'cv', title: "Computer vision", href: "./posts/cv"},
-    {id: 22, pdf: pdf22, img: img22, key: 'nlp', title: "Natural language processing", href: "./posts/nlp"},
-    {id: 23, pdf: pdf23, img: img23, key: 'recommender_systems', title: "Recommender systems", href: "./posts/recommender_systems"},
-    {id: 24, pdf: pdf24, img: img24, key: 'anomaly_detection', title: "Anomaly detection", href: "./posts/anomaly_detection"},
-    {id: 25, pdf: pdf25, img: img25, key: 'ensembles', title: "Ensemble methods", href: "./posts/ensembles"},
-    {id: 26, pdf: pdf26, img: img26, key: 'neural_networks_concepts', title: "Neural networks concepts", href: "./posts/neural_networks_concepts"},
-    {id: 27, pdf: pdf27, img: img27, key: 'time_series', title: "Time series", href: "./posts/time_series"},
-    {id: 28, pdf: pdf28, img: img28, key: 'sql_for_ds', title: "SQL for DS", href: "./posts/sql_for_ds"},
-    {id: 29, pdf: pdf29, img: img29, key: 'linux_and_cs_for_ds', title: "Linux & CS basics for DS", href: "./posts/linux_and_cs_for_ds"},
-    {id: 30, pdf: pdf30, img: img30, key: 'web_services_for_ds', title: "Web services for DS", href: "./posts/web_services_for_ds"},
-    {id: 31, pdf: pdf31, img: img31, key: 'bigdata_bi_and_mlops', title: "Big Data, BI & MLOps", href: "./posts/bigdata_bi_and_mlops"},
-    {id: 32, pdf: pdf32, img: img32, key: 'neural_networks_architectures', title: "Neural networks architectures", href: "./posts/neural_networks_architectures"},
+    {id: 14, pdf: pdf14, img: img14, key: 'clustering', title: "Clustering", href: "./posts/clustering"},
+    {id: 15, pdf: pdf15, img: img15, key: 'dimensionality_reduction', title: "Dimensionality reduction", href: "./posts/dimensionality_reduction"},
+    {id: 16, pdf: pdf16, img: img16, key: 'ml_model_tuning', title: "ML model tuning", href: "./posts/ml_model_tuning"},
+    {id: 17, pdf: pdf17, img: img17, key: 'eda', title: "Exploratory data analysis", href: "./posts/eda"},
+    {id: 18, pdf: pdf18, img: img18, key: 'sklearn', title: "Introduction to Scikit-learn", href: "./posts/sklearn"},
+    {id: 19, pdf: pdf19, img: img19, key: 'tensorflow_and_keras', title: "TensorFlow and Keras", href: "./posts/tensorflow_and_keras"},
+    {id: 20, pdf: pdf20, img: img20, key: 'cv', title: "Computer vision", href: "./posts/cv"},
+    {id: 21, pdf: pdf21, img: img21, key: 'nlp', title: "Natural language processing", href: "./posts/nlp"},
+    {id: 22, pdf: pdf22, img: img22, key: 'recommender_systems', title: "Recommender systems", href: "./posts/recommender_systems"},
+    {id: 23, pdf: pdf23, img: img23, key: 'anomaly_detection', title: "Anomaly detection", href: "./posts/anomaly_detection"},
+    {id: 24, pdf: pdf24, img: img24, key: 'ensembles', title: "Ensemble methods", href: "./posts/ensembles"},
+    {id: 25, pdf: pdf25, img: img25, key: 'neural_network_concepts', title: "Neural network concepts", href: "./posts/neural_network_concepts"},
+    {id: 26, pdf: pdf26, img: img26, key: 'time_series', title: "Time series", href: "./posts/time_series"},
+    {id: 27, pdf: pdf27, img: img27, key: 'sql_for_ds', title: "SQL for DS", href: "./posts/sql_for_ds"},
+    {id: 28, pdf: pdf28, img: img28, key: 'linux_and_cs_for_ds', title: "Linux & CS basics for DS", href: "./posts/linux_and_cs_for_ds"},
+    {id: 29, pdf: pdf29, img: img29, key: 'web_services_for_ds', title: "Web services for DS", href: "./posts/web_services_for_ds"},
+    {id: 30, pdf: pdf30, img: img30, key: 'intro_to_bigdata', title: "Introduction to Big Data", href: "./posts/intro_to_bigdata"},
+    {id: 31, pdf: pdf31, img: img31, key: 'neural_network_architectures', title: "Neural network architectures", href: "./posts/neural_network_architectures"},
 ];
 
 export const galleryImages = [
@@ -347,7 +344,7 @@ export const achievementsArr = [
     {status: 'u', text: 'See the Halloween festival', type: '', hasinfo: 'n', info: '', haslink: 'n', link: ''},
     {status: 'u', text: 'Participate in La Tomatina in Spain', type: '', hasinfo: 'n', info: '', haslink: 'n', link: ''},
     {status: 'u', text: 'See the Up Helly Aa festival in Scotland', type: '', hasinfo: 'n', info: '', haslink: 'n', link: ''},
-    {status: 'c', text: 'Grow long hair', type: '', hasinfo: 'n', info: '', haslink: 'n', link: ''},
+    {status: 'c', text: 'Grow long hair', type: '', hasinfo: 'n', info: '', haslink: 'y', link: 'Сделать фото'},
     {status: 'u', text: 'Ride a camel', type: '', hasinfo: 'n', info: '', haslink: 'n', link: ''},
     {status: 'u', text: 'Play in a casino', type: '', hasinfo: 'n', info: '', haslink: 'n', link: ''},
     {status: 'u', text: 'Dive into the shark cage', type: '', hasinfo: 'n', info: '', haslink: 'n', link: ''},

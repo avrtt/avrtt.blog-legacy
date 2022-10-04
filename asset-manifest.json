@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.500a7718.css",
-    "main.js": "/static/js/main.dcfef12f.js",
+    "main.js": "/static/js/main.f06be87b.js",
     "pdf.worker.js": "/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/neural_network_concepts.jpg": "/static/media/neural_network_concepts.0ebc05e4fccb93151eb8.jpg",
     "static/media/intro_to_bigdata.jpg": "/static/media/intro_to_bigdata.8acc94c892f11c299ea6.jpg",
@@ -52,10 +52,10 @@
     "static/media/checked.svg": "/static/media/checked.5f61d0f2a434a05b8e24d33cf058ca62.svg",
     "static/media/search.svg": "/static/media/search.f79c8c4f2f424b2647d557172012413d.svg",
     "main.500a7718.css.map": "/static/css/main.500a7718.css.map",
-    "main.dcfef12f.js.map": "/static/js/main.dcfef12f.js.map"
+    "main.f06be87b.js.map": "/static/js/main.f06be87b.js.map"
   },
   "entrypoints": [
     "static/css/main.500a7718.css",
-    "static/js/main.dcfef12f.js"
+    "static/js/main.f06be87b.js"
   ]
 }

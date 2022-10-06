@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.c1174c8b.css",
-    "main.js": "/static/js/main.faf6a8f7.js",
+    "main.js": "/static/js/main.29810b84.js",
     "pdf.worker.js": "/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/neural_network_concepts.jpg": "/static/media/neural_network_concepts.0ebc05e4fccb93151eb8.jpg",
-    "static/media/intro_to_bigdata.jpg": "/static/media/intro_to_bigdata.8acc94c892f11c299ea6.jpg",
     "static/media/bayesian_algorithms.jpg": "/static/media/bayesian_algorithms.92bee65ace587e3692a1.jpg",
     "static/media/sample.pdf": "/static/media/sample.11ed5683ffd08b943082.pdf",
     "static/media/classification_metrics.jpg": "/static/media/classification_metrics.52993977eae62a101d4b.jpg",
@@ -22,18 +21,19 @@
     "static/media/linux_and_cs_for_ds.jpg": "/static/media/linux_and_cs_for_ds.b35b2fca7704946a6e42.jpg",
     "static/media/linear_regression.jpg": "/static/media/linear_regression.4b1a14152484afc9f8dc.jpg",
     "static/media/web_services_for_ds.jpg": "/static/media/web_services_for_ds.ff5de340e7bb05d61122.jpg",
+    "static/media/intro_to_bigdata.jpg": "/static/media/intro_to_bigdata.fd6ffd941b9de8e93716.jpg",
     "static/media/regularization.jpg": "/static/media/regularization.3a6147004c634f6cd2f3.jpg",
     "static/media/decision_trees.jpg": "/static/media/decision_trees.aebbbdc736ac1d1b6492.jpg",
     "static/media/mysterious_frog.png": "/static/media/mysterious_frog.46207bf2dfaccdc982a8.png",
     "static/media/clustering.jpg": "/static/media/clustering.ffec4825a6cdf837a0e6.jpg",
     "static/media/eth.svg": "/static/media/eth.7f665a21fe42169b61c01126e7326d3e.svg",
-    "static/media/ensembles.jpg": "/static/media/ensembles.39e87a387bab567d9523.jpg",
     "static/media/logistic_regression.jpg": "/static/media/logistic_regression.c5df146a776ee14e42a8.jpg",
     "static/media/math_for_ds.jpg": "/static/media/math_for_ds.8520904a88c06c6bc232.jpg",
     "static/media/ml_model_tuning.jpg": "/static/media/ml_model_tuning.419a18d1d74153097af7.jpg",
     "static/media/time_series.jpg": "/static/media/time_series.2cde8cce262ac6789e5e.jpg",
     "static/media/sql_for_ds.jpg": "/static/media/sql_for_ds.2ac78457e73928aeb9be.jpg",
     "static/media/nlp.jpg": "/static/media/nlp.ceb8d4ad26e226b18317.jpg",
+    "static/media/ensembles.jpg": "/static/media/ensembles.20908e751b682075413e.jpg",
     "static/media/neural_network_architectures.jpg": "/static/media/neural_network_architectures.622b2ea8726141926586.jpg",
     "static/media/sklearn.jpg": "/static/media/sklearn.bec6e65baa427966cb78.jpg",
     "static/media/hypothesis_testing.jpg": "/static/media/hypothesis_testing.4007f8075525524996e5.jpg",
@@ -52,10 +52,10 @@
     "static/media/checked.svg": "/static/media/checked.5f61d0f2a434a05b8e24d33cf058ca62.svg",
     "static/media/search.svg": "/static/media/search.f79c8c4f2f424b2647d557172012413d.svg",
     "main.c1174c8b.css.map": "/static/css/main.c1174c8b.css.map",
-    "main.faf6a8f7.js.map": "/static/js/main.faf6a8f7.js.map"
+    "main.29810b84.js.map": "/static/js/main.29810b84.js.map"
   },
   "entrypoints": [
     "static/css/main.c1174c8b.css",
-    "static/js/main.faf6a8f7.js"
+    "static/js/main.29810b84.js"
   ]
 }

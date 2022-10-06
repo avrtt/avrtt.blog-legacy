@@ -1,9 +1,5 @@
 import { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faCircleChevronLeft, 
-  faCircleChevronRight
-} from '@fortawesome/free-solid-svg-icons'
+import TelegramComments from 'react-telegram-comments';
 
 import './gallery.css'
 
@@ -17,23 +13,8 @@ const Gallery = ({galleryImages}) => {
     setOpenModal(true)
   }
 
-  // Close Modal
   const handleCloseModal = () => {
     setOpenModal(false)
-  }
-
-  // Previous Image
-  const prevSlide = () => {
-    slideNumber === 0 
-    ? setSlideNumber( galleryImages.length -1 ) 
-    : setSlideNumber( slideNumber - 1 )
-  }
-
-  // Next Image  
-  const nextSlide = () => {
-    slideNumber + 1 === galleryImages.length 
-    ? setSlideNumber(0) 
-    : setSlideNumber(slideNumber + 1)
   }
 
   return (
@@ -41,11 +22,9 @@ const Gallery = ({galleryImages}) => {
 
       {openModal && 
         <div className='sliderWrap'>
-          <FontAwesomeIcon icon={faCircleChevronLeft} className='btnPrev' onClick={prevSlide} />
-          <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextSlide} />
           <div className='fullScreenImage' onClick={handleCloseModal}> 
-            <img src={galleryImages[slideNumber].img} alt='' referrerpolicy="no-referrer" />
-            <div class='desc'>{galleryImages[slideNumber].desc} <br/><div class='date'>{galleryImages[slideNumber].date}</div></div>
+            <img src={galleryImages[slideNumber].img} alt={galleryImages[slideNumber].key} referrerpolicy="no-referrer" />
+            <div class='desc'><div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId={galleryImages[slideNumber].key} showDislikes={true} customHeight='570' /></div></div>
           </div>
         </div>
       }

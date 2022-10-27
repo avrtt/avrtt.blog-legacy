@@ -23,6 +23,15 @@ const mapFrameStyle = {
 	top: '-50px'
 }; 
 
+const statStyle = {
+	'font-size': 25,
+	'margin-left': 88
+};
+
+const spanStyle = {
+	'opacity': 0.5
+};
+
 const Achievements = () => {
   return (
     <motion.div
@@ -36,6 +45,10 @@ const Achievements = () => {
         </Helmet>
         
         <div class='achievements'>
+			<p class='noselect' style={statStyle}>
+				{achievementsArr.reduce((acc, cur) => cur.status === 'c' ? ++acc : acc, 0)} <span style={spanStyle}>/ {achievementsArr.reduce((acc, cur) => cur.status === 'c' ? ++acc : acc, 0) 
+					+ achievementsArr.reduce((acc, cur) => cur.status === 'u' ? ++acc : acc, 0)}</span>
+			</p>
 			<table className="table table-striped table-bordered">
                 <tbody>
                     {achievementsArr && achievementsArr.map(achievement =>                  

@@ -65,22 +65,22 @@ function AnimatedRoutes() {
 				<Route path='/posts/svm' element={<Post13/>} />
 				<Route path='/posts/clustering' element={<Post14/>} />
 				<Route path='/posts/dimensionality_reduction' element={<Post15/>} />
-				<Route path='/posts/ml_model_tuning' element={<Post16/>} />
-				<Route path='/posts/eda' element={<Post17/>} />
-				<Route path='/posts/sklearn' element={<Post18/>} />
-				<Route path='/posts/tensorflow_and_keras' element={<Post19/>} />
-				<Route path='/posts/cv' element={<Post20/>} />
-				<Route path='/posts/nlp' element={<Post21/>} />
-				<Route path='/posts/recommender_systems' element={<Post22/>} />
-				<Route path='/posts/anomaly_detection' element={<Post23/>} />
-				<Route path='/posts/ensembles' element={<Post24/>} />
-				<Route path='/posts/neural_network_concepts' element={<Post25/>} />
-				<Route path='/posts/time_series' element={<Post26/>} />
-				<Route path='/posts/sql_for_ds' element={<Post27/>} />
-				<Route path='/posts/linux_and_cs_for_ds' element={<Post28/>} />
-				<Route path='/posts/web_services_for_ds' element={<Post29/>} />
-				<Route path='/posts/intro_to_bigdata' element={<Post30/>} />
-				<Route path='/posts/neural_network_architectures' element={<Post31/>} />
+				<Route path='/posts/ml_model_tuning' element={<Post18/>} />
+				<Route path='/posts/eda' element={<Post19/>} />
+				<Route path='/posts/sklearn' element={<Post20/>} />
+				<Route path='/posts/tensorflow_and_keras' element={<Post21/>} />
+				<Route path='/posts/cv' element={<Post22/>} />
+				<Route path='/posts/nlp' element={<Post23/>} />
+				<Route path='/posts/recommender_systems' element={<Post24/>} />
+				<Route path='/posts/anomaly_detection' element={<Post25/>} />
+				<Route path='/posts/ensembles' element={<Post26/>} />
+				<Route path='/posts/neural_network_concepts' element={<Post27/>} />
+				<Route path='/posts/time_series' element={<Post28/>} />
+				<Route path='/posts/sql_for_ds' element={<Post29/>} />
+				<Route path='/posts/linux_and_cs_for_ds' element={<Post30/>} />
+				<Route path='/posts/web_services_for_ds' element={<Post31/>} />
+				<Route path='/posts/intro_to_bigdata' element={<Post16/>} />
+				<Route path='/posts/neural_network_architectures' element={<Post17/>} />
 				
 			</Routes>
 		</AnimatePresence>

@@ -21,16 +21,16 @@ const mapFrameStyle = {
 	height: '540px',
 	position: 'relative',
 	top: '-50px'
-}; 
+}
 
 const statStyle = {
 	'font-size': 25,
 	'margin-left': 88
-};
+}
 
 const spanStyle = {
 	'opacity': 0.5
-};
+}
 
 const Achievements = () => {
   return (

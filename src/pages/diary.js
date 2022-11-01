@@ -11,6 +11,14 @@ const playlistHolderStyle = {
 	'text-align': 'center'
 }; 
 
+const telegramPrevStyle = {
+	'border': '0px',
+	'height': '700px',
+	'width': '100%',
+	'margin-top': '50px',
+	'box-shadow': '0 0 16px 3px rgba(0,0,0,.2)'
+};
+
 const Diary = () => {
   return (
     <motion.div class='noselect'
@@ -22,8 +30,9 @@ const Diary = () => {
 		<Helmet>
 			<title>{ TITLE }</title>
         </Helmet>
-                
+        
         <Gallery galleryImages={galleryImages}/>
+        <iframe id='telegram-embed' style={telegramPrevStyle} src="https://xn--r1a.website/s/venturingforth" title='Telegram Preview' />
         
         <div style={playlistHolderStyle}>
 			<iframe width='560' height='315' src='https://www.youtube.com/embed/videoseries?list=PLFzQnxF1skPvlvnld01k0Pgmzxbn5OMx3' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen title='playlist'></iframe>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c1174c8b.css",
-    "main.js": "/static/js/main.c1da419a.js",
+    "main.js": "/static/js/main.357f1dd1.js",
     "pdf.worker.js": "/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/neural_network_concepts.jpg": "/static/media/neural_network_concepts.0ebc05e4fccb93151eb8.jpg",
     "static/media/bayesian_algorithms.jpg": "/static/media/bayesian_algorithms.92bee65ace587e3692a1.jpg",
@@ -41,6 +41,7 @@
     "static/media/btc-qr.svg": "/static/media/btc-qr.4c6159d2203506009bf001bb989102d9.svg",
     "static/media/eth-qr.svg": "/static/media/eth-qr.b59a9ac4dbcc88f1b4c796118dccce9f.svg",
     "static/media/map.svg": "/static/media/map.9e0c6801a1e7061d3cfa435a8fc0536d.svg",
+    "static/media/youtube.svg": "/static/media/youtube.20b20a5d9c58c5d398ed749e36a6b277.svg",
     "static/media/link.svg": "/static/media/link.e60f2792dbdf92d44328728e40377918.svg",
     "static/media/info.svg": "/static/media/info.41ec94d1766bafb4a7e16c128e63d362.svg",
     "static/media/email.svg": "/static/media/email.e2389815e84341ea14806c880afa4f86.svg",
@@ -52,10 +53,10 @@
     "static/media/checked.svg": "/static/media/checked.5f61d0f2a434a05b8e24d33cf058ca62.svg",
     "static/media/search.svg": "/static/media/search.f79c8c4f2f424b2647d557172012413d.svg",
     "main.c1174c8b.css.map": "/static/css/main.c1174c8b.css.map",
-    "main.c1da419a.js.map": "/static/js/main.c1da419a.js.map"
+    "main.357f1dd1.js.map": "/static/js/main.357f1dd1.js.map"
   },
   "entrypoints": [
     "static/css/main.c1174c8b.css",
-    "static/js/main.c1da419a.js"
+    "static/js/main.357f1dd1.js"
   ]
 }

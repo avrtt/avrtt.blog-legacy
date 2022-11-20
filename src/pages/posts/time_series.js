@@ -6,6 +6,7 @@ import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import TelegramComments from 'react-telegram-comments';
 import Frog from '../img/mysterious_frog.png';
+import ChannelPreview from '../../components/ChannelPreview';
 
 const postNumber = itemData.find(x => x.key === 'time_series').id;
 
@@ -56,6 +57,7 @@ export default function Post() {
 			</center>
         
 			<div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId={key} showDislikes={true} /></div>
+			<ChannelPreview />
         
 		</motion.div>
 	);

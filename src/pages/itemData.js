@@ -98,7 +98,8 @@ export const itemData = [
 
 export const galleryImages = [
 	{img: "https://lh5.googleusercontent.com/Og4Dk9d6ez7ygzloxsRp7REProoXsByrS93U1RcGpK1xwDyqpcKFNnrev5WA7TXSn5w=w2400", key: "children of freedom"},
-	{img: "https://lh6.googleusercontent.com/b53GvmRR2JAICTDv0kY6P4njD9cEwWHx-XjLt6nXrQeq7S00_SvV3s8pNqampKECiiA=w2400", key: "balance stones"},
+	{img: "https://lh6.googleusercontent.com/b53GvmRR2JAICTDv0kY6P4njD9cEwWHx-XjLt6nXrQeq7S00_SvV3s8pNqampKECiiA=w2400", key: "stones"},
+	{img: "https://lh6.googleusercontent.com/ITpg6Wr9hpftHKo2J8JglfV7Wjs21Llw8voTy_cPgCVM8vAx-bcIY_WdyHCsoNr4rVo=w2400", key: "cornfield"},
 ];
 
 export const achievementsArr = [
@@ -146,7 +147,7 @@ export const achievementsArr = [
     {status: 'u', text: 'Go on a motorcycle trip across Americas', type: '🌍', hasinfo: 'n', info: '', haslink: 'y', link: 'https://www.google.com/maps/d/viewer?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ll=0.3349379679002022%2C0&z=2'},
     {status: 'u', text: 'Go on a motorcycle trip across Eurasia', type: '🌍', hasinfo: 'n', info: '', haslink: 'y', link: 'https://www.google.com/maps/d/viewer?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ll=0.3349379679002022%2C0&z=2'},
     {status: 'c', text: 'Sleep under a starry sky', type: '👁️', hasinfo: 'n', info: '', haslink: 'n', link: ''},
-    {status: 'c', text: 'Spend a day in the field', type: '👁️', hasinfo: 'n', info: '', haslink: 'y', link: 'https://lh6.googleusercontent.com/ITpg6Wr9hpftHKo2J8JglfV7Wjs21Llw8voTy_cPgCVM8vAx-bcIY_WdyHCsoNr4rVo=w2400'},
+    {status: 'c', text: 'Spend a day in the field', type: '👁️', hasinfo: 'n', info: '', haslink: 'y', link: 'https://lh5.googleusercontent.com/3ifUmBWNT9IZ7ztZ7yhA0h54AAnsu8ODlkLX5xIlrkDSZ9RjOY2zafhiEcWLqCYY0qA=w2400'},
     {status: 'u', text: 'Start speaking conversational Spanish', type: '🧠', hasinfo: 'n', info: '', haslink: 'y', link: ''},
     {status: 'u', text: 'Start speaking English fluently', type: '🧠', hasinfo: 'n', info: '', haslink: 'y', link: ''},
     {status: 'u', text: 'Drink whiskey with Danila while listening to Molly Hatchet', type: '👁️', hasinfo: 'n', info: '', haslink: 'y', link: ''},
@@ -160,7 +161,7 @@ export const achievementsArr = [
     {status: 'u', text: 'Become a Senior Data Scientist', type: '📈', hasinfo: 'n', info: '', haslink: 'y', link: ''},
     {status: 'u', text: 'Become a Kaggle Grandmaster', type: '📈', hasinfo: 'n', info: '', haslink: 'y', link: 'https://www.kaggle.com/lenferdetroud'},
     {status: 'u', text: 'Get 10 medals for Kaggle competitions', type: '📈', hasinfo: 'n', info: '', haslink: 'y', link: 'https://www.kaggle.com/lenferdetroud'},
-    {status: 'u', text: 'Travel 300000 kilometers overland', type: '🌍', hasinfo: 'y', info: 'The sum of distances of passed routes from the travel map', haslink: 'y', link: 'https://www.google.com/maps/d/viewer?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ll=0.3349379679002022%2C0&z=2'},
+    {status: 'u', text: 'Travel 200000 kilometers overland', type: '🌍', hasinfo: 'y', info: 'The sum of distances of passed routes from the travel map', haslink: 'y', link: 'https://www.google.com/maps/d/viewer?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ll=0.3349379679002022%2C0&z=2'},
     {status: 'u', text: 'Visit 50 countries by age 25', type: '🌍', hasinfo: 'n', info: '', haslink: 'y', link: 'https://www.google.com/maps/d/viewer?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ll=0.3349379679002022%2C0&z=2'},
     {status: 'u', text: 'Visit every country in the world', type: '🌍', hasinfo: 'y', info: '195 countries (UN members and observer states)', haslink: 'y', link: 'https://www.google.com/maps/d/viewer?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ll=0.3349379679002022%2C0&z=2'},
     {status: 'u', text: 'Travel for 100 days without spending money on lodging', type: '🌍', hasinfo: 'y', info: 'Using Couchsurfing and tent', haslink: 'y', link: ''},
@@ -288,7 +289,7 @@ export const achievementsArr = [
     {status: 'u', text: 'Do morning cardio for 1000 days', type: '💪', hasinfo: 'y', info: 'Intense short exercise, jogging or walking outside', haslink: 'y', link: ''},
     {status: 'u', text: 'Jogging for 50 days in a row', type: '💪', hasinfo: 'n', info: '', haslink: 'y', link: ''},
     {status: 'u', text: 'Jogging for 1000 days', type: '💪', hasinfo: 'n', info: '', haslink: 'y', link: ''},
-	{status: 'c', text: 'Exchange mobile phones with someone for a couple of days', type: '👁️', hasinfo: 'y', info: 'We jokingly exchanged phones during the lecture, but then she ran away, leaving me with hers. A few days later, when we exchanged back, I found many pictures in my gallery, including this one. I keep it with warmth, even though we are no longer together', haslink: 'y', link: 'https://lh6.googleusercontent.com/q4rNvzN2Ny3jTsmf7AeyOEQ2hDzUV6NQK8-flsxMPIWEbbLRmp11_i6loXIPIG3Ayhg=w2400'},
+	{status: 'c', text: 'Swap mobile phones with someone for a couple of days', type: '👁️', hasinfo: 'y', info: 'We jokingly swapped phones during the lecture, but then she ran away, leaving me with hers. A few days later, when we exchanged back, I found many pictures in my gallery, including this one.', haslink: 'y', link: 'https://lh6.googleusercontent.com/q4rNvzN2Ny3jTsmf7AeyOEQ2hDzUV6NQK8-flsxMPIWEbbLRmp11_i6loXIPIG3Ayhg=w2400'},
 ];
 
 

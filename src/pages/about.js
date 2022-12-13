@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet'
 import { motion } from 'framer-motion';
 
-const TITLE = 'About - lenferdetroud.github.io'
+const TITLE = 'About - segfaultnomad.github.io'
 
 const About = () => {
   return (

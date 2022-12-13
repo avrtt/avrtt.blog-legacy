@@ -7,7 +7,7 @@ import link from "./img/achievements/link.svg";
 import info from "./img/achievements/info.svg";
 import { achievementsArr } from "./itemData"
 
-const TITLE = 'Achievements - lenferdetroud.github.io'
+const TITLE = 'Achievements - segfaultnomad.github.io'
 
 const divStyle = {
 	width: '100%',

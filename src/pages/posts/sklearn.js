@@ -11,7 +11,7 @@ import ChannelPreview from '../../components/ChannelPreview';
 const postNumber = itemData.find(x => x.key === 'sklearn').id;
 
 const pdf = itemData.find(x => x.id === postNumber).pdf;
-const title = itemData.find(x => x.id === postNumber).title + ' - lenferdetroud.github.io';
+const title = itemData.find(x => x.id === postNumber).title + ' - segfaultnomad.github.io';
 const key = itemData.find(x => x.id === postNumber).key;
 
 export default function Post() {  
@@ -53,7 +53,7 @@ export default function Post() {
 							/>))}
 					</Document>
 				</div>
-				<p></p><a href={'https://github.com/lenferdetroud/lenferdetroud.github.io/raw/master/src/pages/posts/' + key + '.pdf'}>Download PDF</a>
+				<p></p><a href={'https://github.com/segfaultnomad/segfaultnomad.github.io/raw/master/src/pages/posts/' + key + '.pdf'}>Download PDF</a>
 			</center>
         
 			<div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId={key} showDislikes={true} /></div>

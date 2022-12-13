@@ -11,7 +11,7 @@ import XMRQR from "./img/donate/xmr-qr.svg";
 import Search from "./img/donate/search.svg";
 import QR from "./img/donate/qr.png";
 
-const TITLE = 'Donate - lenferdetroud.github.io'
+const TITLE = 'Donate - segfaultnomad.github.io'
 
 const logoStyle = {
 	'vertical-align': 'middle'

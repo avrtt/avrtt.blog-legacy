@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { galleryImages } from './itemData';
 import Gallery from '../components/Gallery/gallery';
 
-const TITLE = 'Diary - lenferdetroud.github.io'
+const TITLE = 'Diary - segfaultnomad.github.io'
 
 const telegramPrevStyle = {
 	'border': '0px',
@@ -47,7 +47,7 @@ const Diary = () => {
         
         <center>
 			<div style={divStyle}>
-				<p style={pStyle}>[ Channel preview was removed by the Adblock extension ]</p>
+				<p style={pStyle}>[ Channel preview was probably removed by the Adblock extension ]</p>
 				<iframe id='telegram-embed' style={telegramPrevStyle} src="https://xn--r1a.website/s/venturingforth" title='Telegram Preview' />
 			</div>
 		</center>

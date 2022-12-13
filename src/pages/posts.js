@@ -11,7 +11,7 @@ itemData.sort(function (a, b) {
   return b.id - a.id;
 });
 
-const TITLE = 'Posts - lenferdetroud.github.io'
+const TITLE = 'Posts - segfaultnomad.github.io'
 
 const Posts = () => {
   return (

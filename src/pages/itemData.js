@@ -195,7 +195,7 @@ export const achievementsArr = [
     {status: 'u', text: 'Swim with a whale', type: '👁️', hasinfo: 'n', info: '', haslink: 'y', link: ''},
     {status: 'u', text: 'Ride a bicycle through the city at night', type: '👁️', hasinfo: 'n', info: '', haslink: 'y', link: ''},
     {status: 'u', text: 'Dive in a bathyscaphe', type: '👁️', hasinfo: 'n', info: '', haslink: 'y', link: ''},
-    {status: 'u', text: 'Bushcraft and workout on a seashore', type: '👁️', hasinfo: 'n', info: '', haslink: 'y', link: ''},
+    {status: 'u', text: 'Bushcraft and workout on a lonely seashore', type: '👁️', hasinfo: 'n', info: '', haslink: 'y', link: ''},
     {status: 'u', text: 'Fly in a hot air balloon', type: '👁️', hasinfo: 'n', info: '', haslink: 'y', link: ''},
     {status: 'u', text: 'Go ice skating on a river or lake', type: '👁️', hasinfo: 'n', info: '', haslink: 'y', link: ''},
     {status: 'c', text: 'Get into a party with random people', type: '👁️', hasinfo: 'y', info: 'The only person I knew at this party was Lena, whom I held for fear she would fall out the window', haslink: 'y', link: 'https://lh6.googleusercontent.com/f4Uy4C6oV4ktNeXGPaBkoixJxxLnaYN_qgiofbpkmggoVjT-Yd7Vi7sm4HBn2Ec3ghA=w2400'},

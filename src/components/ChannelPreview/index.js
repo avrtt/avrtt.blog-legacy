@@ -32,7 +32,7 @@ const ChannelPreview = () => {
 			<b><p style={textStyle}>Check out my Telegram channel for updates and more posts</p></b>
 			<div style={divStyle}>
 				<p style={pStyle}>[ Channel preview was probably removed by the Adblock extension ]</p>
-				<iframe id='telegram-embed' style={telegramPrevStyle} src="https://xn--r1a.website/s/traintestrocknroll" title='Telegram Preview' />
+				<iframe id='telegram-embed' style={telegramPrevStyle} src="https://xn--r1a.website/s/train_test_rocknroll" title='Telegram Preview' />
 			</div>
 		</center>
 	</>

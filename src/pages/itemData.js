@@ -97,9 +97,11 @@ export const itemData = [
 ];
 
 export const galleryImages = [
+	{img: "https://lh4.googleusercontent.com/gXe2uhATd6_vzw8xXKcliBolY0f4PkRJYTsvLJjMSBlTFKKDr5HcB-QhP5PX2qCM8is=w2400", key: "mono no aware"},
+	{img: "https://lh3.googleusercontent.com/dH5o8p3Ki-txhBijSdTxDtS7rDVsBiD2N3RILHXAq43MD3a22EC4UOAjZufKVSnH8Z4=w2400", key: "two worlds"},
 	{img: "https://lh5.googleusercontent.com/Og4Dk9d6ez7ygzloxsRp7REProoXsByrS93U1RcGpK1xwDyqpcKFNnrev5WA7TXSn5w=w2400", key: "children of freedom"},
 	{img: "https://lh6.googleusercontent.com/b53GvmRR2JAICTDv0kY6P4njD9cEwWHx-XjLt6nXrQeq7S00_SvV3s8pNqampKECiiA=w2400", key: "stones"},
-	{img: "https://lh6.googleusercontent.com/ITpg6Wr9hpftHKo2J8JglfV7Wjs21Llw8voTy_cPgCVM8vAx-bcIY_WdyHCsoNr4rVo=w2400", key: "cornfield"},
+	{img: "https://lh6.googleusercontent.com/ITpg6Wr9hpftHKo2J8JglfV7Wjs21Llw8voTy_cPgCVM8vAx-bcIY_WdyHCsoNr4rVo=w2400", key: "cornfield"}
 ];
 
 export const achievementsArr = [

@@ -44,7 +44,7 @@ const Diary = () => {
         </Helmet>
         
         <Gallery galleryImages={galleryImages}/>  
-        
+                           
         <center>
 			<div style={divStyle}>
 				<p style={pStyle}>[ Channel preview was probably removed by the Adblock extension ]</p>

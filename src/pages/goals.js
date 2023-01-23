@@ -1,0 +1,82 @@
+import React from 'react';
+import { Helmet } from 'react-helmet'
+import { motion } from 'framer-motion';
+import TelegramComments from 'react-telegram-comments';
+import checkbox from "./img/goals/checked.svg";
+import link from "./img/goals/link.svg";
+import info from "./img/goals/info.svg";
+import { goalsArr } from "./itemData"
+
+const TITLE = 'Goals - segfaultnomad.github.io'
+
+const divStyle = {
+	width: '100%',
+	height: '540px',
+	overflow: 'hidden'
+}  
+
+const mapFrameStyle = {
+	border: 'none',
+	width: '100%',
+	height: '540px',
+	position: 'relative',
+	top: '-50px'
+}
+
+const statStyle = {
+	'font-size': 25,
+	'margin-left': 88
+}
+
+const spanStyle = {
+	'opacity': 0.5
+}
+
+const Goals = () => {
+  return (
+    <motion.div
+		initial={{opacity: 0 }}
+		animate={{opacity: 1 }}
+		exit={{opacity: 0 }}
+		transition={{ duration: 0.15 }}>
+		
+		<Helmet>
+			<title>{ TITLE }</title>
+        </Helmet>
+        
+        <div class='goals'>
+			<p class='noselect' style={statStyle}>
+				{goalsArr.reduce((acc, cur) => cur.status === 'c' ? ++acc : acc, 0)} <span style={spanStyle}>/ {goalsArr.reduce((acc, cur) => cur.status === 'c' ? ++acc : acc, 0) 
+					+ goalsArr.reduce((acc, cur) => cur.status === 'u' ? ++acc : acc, 0)}</span>
+			</p>
+			<table className="table table-striped table-bordered">
+                <tbody>
+                    {goalsArr && goalsArr.map(goal =>                  
+                        <tr>
+							<td class='noselect'>{goal.type}&nbsp;&nbsp;&nbsp;</td>
+							<img src={checkbox} class={goal.status} alt='checkbox'/>
+                            <td width='600px'>{goal.text}</td>
+                            <td>
+								<div class="tooltipGoals">
+									<img id='info' src={info} class={goal.hasinfo} alt='info'/>
+									<span class="tooltiptextGoals">{goal.info}</span>
+								</div>
+							</td>
+                            <td><a class={goal.haslink} href={goal.link}><img id='link' src={link} class={goal.haslink} alt='link'/></a></td>
+                        </tr>
+                    )}
+                </tbody>
+            </table>
+		</div> 
+        
+        <div id="map-container" style={divStyle}>
+			<iframe id="map-embed" src="https://www.google.com/maps/d/embed?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ehbc=2E312F" style={mapFrameStyle} title="Travel Map" />
+		</div>
+        
+        <div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId='goals' showDislikes={true} /></div>
+         
+    </motion.div>
+  );
+};
+  
+export default Goals;

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.341df34b.css",
-    "main.js": "/static/js/main.1c92d56f.js",
+    "main.js": "/static/js/main.ac2b37a9.js",
     "static/media/neural_network_concepts.jpg": "/static/media/neural_network_concepts.0ebc05e4fccb93151eb8.jpg",
     "static/media/bayesian_algorithms.jpg": "/static/media/bayesian_algorithms.92bee65ace587e3692a1.jpg",
     "static/media/classification_metrics.jpg": "/static/media/classification_metrics.52993977eae62a101d4b.jpg",
@@ -10,7 +10,6 @@
     "static/media/eda.jpg": "/static/media/eda.02d249f73e30e5bc1965.jpg",
     "static/media/gradient_descent_optimization.jpg": "/static/media/gradient_descent_optimization.ed818f1617bd63515448.jpg",
     "static/media/anomaly_detection.jpg": "/static/media/anomaly_detection.8e81c3e401008da571f7.jpg",
-    "static/media/altai.jpg": "/static/media/altai.06bf8cf933fd97c1f78c.jpg",
     "static/media/algorithms_and_data_structures.jpg": "/static/media/algorithms_and_data_structures.00d949a136c7e61c84cc.jpg",
     "static/media/ml_basics.jpg": "/static/media/ml_basics.69f46f10f23409bcc2f8.jpg",
     "static/media/svm.jpg": "/static/media/svm.5a00b55a3eee8327f7e3.jpg",
@@ -22,6 +21,7 @@
     "static/media/web_services_for_ds.jpg": "/static/media/web_services_for_ds.ff5de340e7bb05d61122.jpg",
     "static/media/intro_to_bigdata.jpg": "/static/media/intro_to_bigdata.fd6ffd941b9de8e93716.jpg",
     "static/media/regularization.jpg": "/static/media/regularization.3a6147004c634f6cd2f3.jpg",
+    "static/media/altai.jpg": "/static/media/altai.7d6e3eeab0bfedccd830.jpg",
     "static/media/decision_trees.jpg": "/static/media/decision_trees.aebbbdc736ac1d1b6492.jpg",
     "static/media/clustering.jpg": "/static/media/clustering.ffec4825a6cdf837a0e6.jpg",
     "static/media/eth.svg": "/static/media/eth.7f665a21fe42169b61c01126e7326d3e.svg",
@@ -57,7 +57,6 @@
     "static/media/KaTeX_Math-Italic.woff": "/static/media/KaTeX_Math-Italic.96759856b4e70f3a8338.woff",
     "static/media/KaTeX_Math-BoldItalic.woff": "/static/media/KaTeX_Math-BoldItalic.3f07ed67f06c720120ce.woff",
     "static/media/KaTeX_Main-Italic.woff2": "/static/media/KaTeX_Main-Italic.fe2176f79edaa716e621.woff2",
-    "static/media/novosibirsk.jpg": "/static/media/novosibirsk.fb121a41103d4658f210.jpg",
     "static/media/KaTeX_Main-BoldItalic.woff2": "/static/media/KaTeX_Main-BoldItalic.20f389c4120be058d80a.woff2",
     "static/media/KaTeX_Script-Regular.ttf": "/static/media/KaTeX_Script-Regular.fc9ba5249878cd8f8d88.ttf",
     "static/media/KaTeX_Math-Italic.woff2": "/static/media/KaTeX_Math-Italic.6d3d25f4820d0da8f01f.woff2",
@@ -78,6 +77,7 @@
     "static/media/KaTeX_Size2-Regular.ttf": "/static/media/KaTeX_Size2-Regular.57f5c1837853986ea1db.ttf",
     "static/media/KaTeX_Fraktur-Bold.woff2": "/static/media/KaTeX_Fraktur-Bold.931d67ea207ab37ee693.woff2",
     "static/media/KaTeX_Fraktur-Regular.woff2": "/static/media/KaTeX_Fraktur-Regular.172d3529b26f8cedef6b.woff2",
+    "static/media/novosibirsk.jpg": "/static/media/novosibirsk.0b9b6783763b676173fc.jpg",
     "static/media/hypothesis_testing.jpg": "/static/media/hypothesis_testing.4007f8075525524996e5.jpg",
     "static/media/KaTeX_Script-Regular.woff": "/static/media/KaTeX_Script-Regular.073b3402d036714b4370.woff",
     "static/media/KaTeX_Size4-Regular.ttf": "/static/media/KaTeX_Size4-Regular.4ad7c7e8bb8d10a34bb7.ttf",
@@ -112,10 +112,10 @@
     "static/media/checked.svg": "/static/media/checked.5f61d0f2a434a05b8e24d33cf058ca62.svg",
     "static/media/search.svg": "/static/media/search.f79c8c4f2f424b2647d557172012413d.svg",
     "main.341df34b.css.map": "/static/css/main.341df34b.css.map",
-    "main.1c92d56f.js.map": "/static/js/main.1c92d56f.js.map"
+    "main.ac2b37a9.js.map": "/static/js/main.ac2b37a9.js.map"
   },
   "entrypoints": [
     "static/css/main.341df34b.css",
-    "static/js/main.1c92d56f.js"
+    "static/js/main.ac2b37a9.js"
   ]
 }

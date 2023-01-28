@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.60f48aab.css",
-    "main.js": "/static/js/main.e9f3f5ca.js",
+    "main.css": "/static/css/main.a1da93cf.css",
+    "main.js": "/static/js/main.f5b82b2f.js",
     "static/media/neural_network_concepts.jpg": "/static/media/neural_network_concepts.0ebc05e4fccb93151eb8.jpg",
     "static/media/bayesian_algorithms.jpg": "/static/media/bayesian_algorithms.92bee65ace587e3692a1.jpg",
     "static/media/classification_metrics.jpg": "/static/media/classification_metrics.52993977eae62a101d4b.jpg",
@@ -17,17 +17,18 @@
     "static/media/knn.jpg": "/static/media/knn.63cf69e9b2a6f3e6110a.jpg",
     "static/media/cv.jpg": "/static/media/cv.c522c0d5ae8263ce91e4.jpg",
     "static/media/recommender_systems.jpg": "/static/media/recommender_systems.b2a6416fc8fa7df8681d.jpg",
-    "static/media/linux_and_cs_for_ds.jpg": "/static/media/linux_and_cs_for_ds.b35b2fca7704946a6e42.jpg",
+    "static/media/linux_and_cs_basics.jpg": "/static/media/linux_and_cs_basics.b35b2fca7704946a6e42.jpg",
     "static/media/linear_regression.jpg": "/static/media/linear_regression.4b1a14152484afc9f8dc.jpg",
     "static/media/web_services_for_ds.jpg": "/static/media/web_services_for_ds.ff5de340e7bb05d61122.jpg",
     "static/media/intro_to_bigdata.jpg": "/static/media/intro_to_bigdata.fd6ffd941b9de8e93716.jpg",
     "static/media/regularization.jpg": "/static/media/regularization.3a6147004c634f6cd2f3.jpg",
     "static/media/baikal.jpg": "/static/media/baikal.1c447740fd2531abdc0d.jpg",
     "static/media/decision_trees.jpg": "/static/media/decision_trees.aebbbdc736ac1d1b6492.jpg",
+    "static/media/orenburg.jpg": "/static/media/orenburg.3fb4b815d5eb2c8ec44e.jpg",
     "static/media/clustering.jpg": "/static/media/clustering.ffec4825a6cdf837a0e6.jpg",
     "static/media/eth.svg": "/static/media/eth.7f665a21fe42169b61c01126e7326d3e.svg",
     "static/media/logistic_regression.jpg": "/static/media/logistic_regression.c5df146a776ee14e42a8.jpg",
-    "static/media/math_for_ds.jpg": "/static/media/math_for_ds.8520904a88c06c6bc232.jpg",
+    "static/media/linear_algebra_for_ml.jpg": "/static/media/linear_algebra_for_ml.8520904a88c06c6bc232.jpg",
     "static/media/ml_model_tuning.jpg": "/static/media/ml_model_tuning.419a18d1d74153097af7.jpg",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/time_series.jpg": "/static/media/time_series.2cde8cce262ac6789e5e.jpg",
@@ -112,11 +113,11 @@
     "static/media/telegram.svg": "/static/media/telegram.ae26ebec6cf4561ae11a75aa748d76b3.svg",
     "static/media/checked.svg": "/static/media/checked.5f61d0f2a434a05b8e24d33cf058ca62.svg",
     "static/media/search.svg": "/static/media/search.f79c8c4f2f424b2647d557172012413d.svg",
-    "main.60f48aab.css.map": "/static/css/main.60f48aab.css.map",
-    "main.e9f3f5ca.js.map": "/static/js/main.e9f3f5ca.js.map"
+    "main.a1da93cf.css.map": "/static/css/main.a1da93cf.css.map",
+    "main.f5b82b2f.js.map": "/static/js/main.f5b82b2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.60f48aab.css",
-    "static/js/main.e9f3f5ca.js"
+    "static/css/main.a1da93cf.css",
+    "static/js/main.f5b82b2f.js"
   ]
 }

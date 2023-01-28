@@ -8,6 +8,8 @@ import ReactMarkdown from 'react-markdown';
 import Latex from 'react-latex-next';
 import Zoom from 'react-medium-image-zoom'
 import 'katex/dist/katex.min.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import 'animate.css/animate.min.css';
 
 const postNumber = itemDataLearning.find(x => x.key === 'recommender_systems').id;
 
@@ -46,23 +48,23 @@ export default function Post() {
 			exit={{opacity: 0 }}
 			transition={{ duration: 0.15 }}>
 			<Helmet><title>{ title }</title></Helmet>
-			<center><div style={prevStyle}>
+			<center><div class='noselect' style={prevStyle}>
 				<img style={prevImgStyle} src={banner} alt="banner" />
 				<b><div style={prevTextStyle}>{itemDataLearning.find(x => x.id === postNumber).title}</div></b>
 				<br/>
-			</div></center>
+			</div></center><div class="postBody">
 				
 					
 <ReactMarkdown># This is Markdown </ReactMarkdown>
 <Latex>This is LaTeX: $e^+e^-$ $\\gamma$</Latex>
 <Latex>\[ \lambda_(X^T X) / \lambda(X^T X) = 8.920608e+04\]</Latex>
 Modal images:
-<center><Zoom><img alt="test" src="https://lh4.googleusercontent.com/gXe2uhATd6_vzw8xXKcliBolY0f4PkRJYTsvLJjMSBlTFKKDr5HcB-QhP5PX2qCM8is=w2400" width="50%" /></Zoom></center>
-<center><Zoom><img alt="test" src="https://lh6.googleusercontent.com/b53GvmRR2JAICTDv0kY6P4njD9cEwWHx-XjLt6nXrQeq7S00_SvV3s8pNqampKECiiA=w2400" width="50%" /></Zoom></center>
+<center><AnimationOnScroll animateIn="animate__fadeIn" animateOnce="true"><Zoom><img alt="img" src="https://lh4.googleusercontent.com/gXe2uhATd6_vzw8xXKcliBolY0f4PkRJYTsvLJjMSBlTFKKDr5HcB-QhP5PX2qCM8is=w2400" width="50%" /></Zoom></AnimationOnScroll></center>
+<center><AnimationOnScroll animateIn="animate__fadeIn" animateOnce="true"><Zoom><img alt="img" src="https://lh6.googleusercontent.com/b53GvmRR2JAICTDv0kY6P4njD9cEwWHx-XjLt6nXrQeq7S00_SvV3s8pNqampKECiiA=w2400" width="50%" /></Zoom></AnimationOnScroll></center>
 											
 							
 							
-			<div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId={key} showDislikes={true} /></div>
+			</div><div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId={key} showDislikes={true} /></div>
 			<ChannelPreviewLearning />
 		</motion.div>
 	);

@@ -1,12 +1,24 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+    font-family: 'Quicksand', sand-serif;
     margin: 5% auto;
     max-width: 73%;
     line-height: 1.8;
-    font-size: 18px;
+    font-size: 22px;
     padding: 0 2.4em;
     color: #444444;
     background-color: #f2f2f2;
+}
+
+.postBody {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 100%;
+    font-size: 26px;
+    color: #444444;
+    background-color: white;
+    padding: 2.5em 4em;
+    border-radius: 20px;
+    font-weight: lighter;
 }
 
 h1, h2, h3 {
@@ -82,6 +94,63 @@ code {
 	display: block;
 	width: 462px;
 	margin-top: 18px;
+	z-index: 1;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 0 0px 0 #575656;
+    padding: 0 1em;
+}
+
+.titleblock {
+	 background-color: #f2f2f2;
+	 border-radius: 15px;
+	 z-index: 1;
+	 pointer-events: none;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 25px 0 #ffffff;
+}
+
+.overlay-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-family: 'Quicksand', sand-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.25s;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.overlay-back:hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-family: 'Quicksand', sand-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.25s;
+    max-width: 100%;
+    cursor: pointer;
 }
 
 .overlay-home {
@@ -108,22 +177,15 @@ code {
 }
 
 .overlay-home > *  {
-    transform: translateY(20px);
+    transform: translateY(0px);
     transition: transform 0.15s;
 }
-
 
 .overlay-home:hover > *  {
     transform: translateY(0);
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-}
-
-.title {
-    font-size: 20px;
-    font-weight: bold;
-    text-shadow: 0 0px 0 #ffffff;
 }
 
 .row {
@@ -388,6 +450,7 @@ code {
 }
 
 .goals {
+	font-size: 18px;
 	margin-left: 20%;
 	margin-right: 20%;
 	margin-top: 15px;
@@ -520,6 +583,7 @@ code {
 [data-rmiz-content="found"] [role="img"],
 [data-rmiz-content="found"] [data-zoom] {
   cursor: pointer;
+  border-radius: 20px;
 }
 
 [data-rmiz-modal]::backdrop {
@@ -566,7 +630,7 @@ code {
   cursor: pointer;
   image-rendering: high-quality;
   transform-origin: top left;
-  transition: transform 0.3s;
+  transition: transform 0.2s;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -576,7 +640,12 @@ code {
   }
 }
 
-
+.chatWrapper {
+	margin-top: 100px;
+	border-radius: 20px;
+	border: 20px solid white;
+	background-color: white;
+}
 
 
 

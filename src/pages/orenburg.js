@@ -1,0 +1,70 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import { motion } from 'framer-motion';
+import { itemDataAdventures } from './itemData';
+import TelegramComments from 'react-telegram-comments';
+import ChannelPreviewAdventures from '../components/ChannelPreviewAdventures';
+import ReactMarkdown from 'react-markdown';
+import Latex from 'react-latex-next';
+import Zoom from 'react-medium-image-zoom'
+import 'katex/dist/katex.min.css';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import 'animate.css/animate.min.css';
+
+const postNumber = itemDataAdventures.find(x => x.key === 'orenburg').id;
+
+const title = itemDataAdventures.find(x => x.id === postNumber).title + ' - segfaultnomad.github.io';
+const key = itemDataAdventures.find(x => x.id === postNumber).key;
+var banner = require("./img/adventures/" + key + ".jpg");
+
+const prevImgStyle = {
+	"width": "55%",
+	"clip-path": "inset(25% 0px 30% 0px round 15px)",
+	"transform": "scale(1.8)",
+	"filter": "brightness(70%)"
+}
+
+const prevStyle = {
+	"position": "relative",
+}
+
+const prevTextStyle = {
+	"position": "absolute",
+	"top": "50%",
+	"left": "50%", "width": "100%",
+	"transform": "translate(-50%, -70%)",
+	"margin": "0",
+	"padding": "0",
+	"color": "#f2f2f2",
+	"font-size": "55px",
+	"font-family": "'Quicksand', sand-serif"
+}
+
+export default function Post() {	
+	return (
+		<motion.div 
+			initial={{opacity: 0 }}
+			animate={{opacity: 1 }}
+			exit={{opacity: 0 }}
+			transition={{ duration: 0.15 }}>
+			<Helmet><title>{ title }</title></Helmet>
+			<center><div class='noselect' style={prevStyle}>
+				<img style={prevImgStyle} src={banner} alt="banner" />
+				<b><div style={prevTextStyle}>{itemDataAdventures.find(x => x.id === postNumber).title}</div></b>
+				<br/>
+			</div></center><div class="postBody">
+
+
+
+<ReactMarkdown># Text </ReactMarkdown>
+Text <br/><br/>
+<center><AnimationOnScroll animateIn="animate__fadeIn" animateOnce="true"><Zoom><img alt="img" src="https://lh6.googleusercontent.com/b53GvmRR2JAICTDv0kY6P4njD9cEwWHx-XjLt6nXrQeq7S00_SvV3s8pNqampKECiiA=w2400" width="50%" /></Zoom></AnimationOnScroll></center>
+											
+							
+							
+			</div><div class='chatWrapper'><TelegramComments websiteKey={'2JA7Wo3q'} customColor='000000' commentsNumber={5} pageId={key} showDislikes={true} /></div>
+			<ChannelPreviewAdventures />
+		</motion.div>
+	);
+};
+  

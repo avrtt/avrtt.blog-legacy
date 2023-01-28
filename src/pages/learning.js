@@ -6,6 +6,8 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import 'animate.css/animate.min.css';
 
 itemDataLearning.sort(function (a, b) {
   return b.id - a.id;
@@ -26,20 +28,24 @@ const Posts = () => {
         </Helmet>  
         
         <Box>
-			<ImageList cols={3} gap={3}>
+			<ImageList cols={2} gap={5}>
 				{itemDataLearning.map((item) => (
 					<ImageListItem key={item.img}>
 						<div class="hover">
-							<img
+							<AnimationOnScroll offset="1000" animateIn="animate__fadeIn" animateOnce="true" duration="1"><img
 								class="prew-home"
 								src={`${item.img}?w=248&fit=crop&auto=format`}
 								srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
 								alt="img_prev"
 								loading="lazy"
-							/>
+							/></AnimationOnScroll>
 							<Link to={item.href}>
+								<div class="overlay-back">
+									<div class="titleblock"><p class="title">{item.title}</p></div>							
+								</div>
 								<div class="overlay-home">
-									<div class="title">{item.title}</div>
+									<p class="title">{item.title}</p>
+									<div class="description">{item.desc}</div>
 								</div>
 							</Link>
 						</div>

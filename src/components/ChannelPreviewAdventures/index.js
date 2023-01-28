@@ -5,7 +5,8 @@ const telegramPrevStyle = {
 	'height': '700px',
 	'width': '100%',
 	'margin-top': '5px',
-	'box-shadow': '0 0 16px 3px rgba(0,0,0,.2)'
+	'box-shadow': '0 0 16px 3px rgba(0,0,0,.2)',
+	'border-radius': '20px'
 }
 
 const textStyle = {

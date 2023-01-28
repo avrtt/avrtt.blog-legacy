@@ -6,6 +6,8 @@ import checkbox from "./img/goals/checked.svg";
 import link from "./img/goals/link.svg";
 import info from "./img/goals/info.svg";
 import { goalsArr } from "./itemData"
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import 'animate.css/animate.min.css';
 
 const TITLE = 'Goals - segfaultnomad.github.io'
 
@@ -45,14 +47,14 @@ const Goals = () => {
         </Helmet>
         
         <div class='goals'>
-			<p class='noselect' style={statStyle}>
+		   <p class='noselect' style={statStyle}>
 				{goalsArr.reduce((acc, cur) => cur.status === 'c' ? ++acc : acc, 0)} <span style={spanStyle}>/ {goalsArr.reduce((acc, cur) => cur.status === 'c' ? ++acc : acc, 0) 
 					+ goalsArr.reduce((acc, cur) => cur.status === 'u' ? ++acc : acc, 0)}</span>
 			</p>
 			<table className="table table-striped table-bordered">
                 <tbody>
                     {goalsArr && goalsArr.map(goal =>                  
-                        <tr>
+                        <AnimationOnScroll offset="1000" animateIn="animate__fadeIn" animateOnce="true" duration="0.6"><tr>
 							<td class='noselect'>{goal.type}&nbsp;&nbsp;&nbsp;</td>
 							<img src={checkbox} class={goal.status} alt='checkbox'/>
                             <td width='600px'>{goal.text}</td>
@@ -63,13 +65,13 @@ const Goals = () => {
 								</div>
 							</td>
                             <td><a class={goal.haslink} href={goal.link}><img id='link' src={link} class={goal.haslink} alt='link'/></a></td>
-                        </tr>
+                        </tr></AnimationOnScroll>
                     )}
                 </tbody>
             </table>
 		</div> 
         
-        <div id="map-container" style={divStyle}>
+      <div id="map-container" style={divStyle}>
 			<iframe id="map-embed" src="https://www.google.com/maps/d/embed?mid=1X9b0bo11WcY9on87ZQXoB3YUkccwnK49&ehbc=2E312F" style={mapFrameStyle} title="Travel Map" />
 		</div>
         

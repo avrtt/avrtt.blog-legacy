@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce400839.css",
+    "main.css": "/static/css/main.552668fa.css",
     "main.js": "/static/js/main.f5b82b2f.js",
     "static/media/neural_network_concepts.jpg": "/static/media/neural_network_concepts.0ebc05e4fccb93151eb8.jpg",
     "static/media/bayesian_algorithms.jpg": "/static/media/bayesian_algorithms.92bee65ace587e3692a1.jpg",
@@ -113,11 +113,11 @@
     "static/media/telegram.svg": "/static/media/telegram.ae26ebec6cf4561ae11a75aa748d76b3.svg",
     "static/media/checked.svg": "/static/media/checked.5f61d0f2a434a05b8e24d33cf058ca62.svg",
     "static/media/search.svg": "/static/media/search.f79c8c4f2f424b2647d557172012413d.svg",
-    "main.ce400839.css.map": "/static/css/main.ce400839.css.map",
+    "main.552668fa.css.map": "/static/css/main.552668fa.css.map",
     "main.f5b82b2f.js.map": "/static/js/main.f5b82b2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce400839.css",
+    "static/css/main.552668fa.css",
     "static/js/main.f5b82b2f.js"
   ]
 }

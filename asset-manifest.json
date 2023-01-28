@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.552668fa.css",
-    "main.js": "/static/js/main.f5b82b2f.js",
+    "main.js": "/static/js/main.473a893b.js",
     "static/media/neural_network_concepts.jpg": "/static/media/neural_network_concepts.0ebc05e4fccb93151eb8.jpg",
     "static/media/bayesian_algorithms.jpg": "/static/media/bayesian_algorithms.92bee65ace587e3692a1.jpg",
     "static/media/classification_metrics.jpg": "/static/media/classification_metrics.52993977eae62a101d4b.jpg",
@@ -114,10 +114,10 @@
     "static/media/checked.svg": "/static/media/checked.5f61d0f2a434a05b8e24d33cf058ca62.svg",
     "static/media/search.svg": "/static/media/search.f79c8c4f2f424b2647d557172012413d.svg",
     "main.552668fa.css.map": "/static/css/main.552668fa.css.map",
-    "main.f5b82b2f.js.map": "/static/js/main.f5b82b2f.js.map"
+    "main.473a893b.js.map": "/static/js/main.473a893b.js.map"
   },
   "entrypoints": [
     "static/css/main.552668fa.css",
-    "static/js/main.f5b82b2f.js"
+    "static/js/main.473a893b.js"
   ]
 }

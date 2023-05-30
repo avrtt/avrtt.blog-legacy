@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.beff865e.css",
-    "main.js": "/static/js/main.63b16e3e.js",
+    "main.js": "/static/js/main.2c31688d.js",
     "static/media/classification_metrics.jpg": "/static/media/classification_metrics.e726a35f4570ce77c36b.jpg",
     "static/media/neural_network_concepts.jpg": "/static/media/neural_network_concepts.0ebc05e4fccb93151eb8.jpg",
     "static/media/linear_algebra_for_ml.jpg": "/static/media/linear_algebra_for_ml.b362e23e76e91a9d38b0.jpg",
@@ -129,10 +129,10 @@
     "static/media/checked.svg": "/static/media/checked.5f61d0f2a434a05b8e24d33cf058ca62.svg",
     "static/media/search.svg": "/static/media/search.f79c8c4f2f424b2647d557172012413d.svg",
     "main.beff865e.css.map": "/static/css/main.beff865e.css.map",
-    "main.63b16e3e.js.map": "/static/js/main.63b16e3e.js.map"
+    "main.2c31688d.js.map": "/static/js/main.2c31688d.js.map"
   },
   "entrypoints": [
     "static/css/main.beff865e.css",
-    "static/js/main.63b16e3e.js"
+    "static/js/main.2c31688d.js"
   ]
 }

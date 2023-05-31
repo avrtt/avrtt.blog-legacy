@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.beff865e.css",
-    "main.js": "/static/js/main.2c31688d.js",
+    "main.js": "/static/js/main.fc63d341.js",
     "static/media/classification_metrics.jpg": "/static/media/classification_metrics.e726a35f4570ce77c36b.jpg",
     "static/media/neural_network_concepts.jpg": "/static/media/neural_network_concepts.0ebc05e4fccb93151eb8.jpg",
     "static/media/linear_algebra_for_ml.jpg": "/static/media/linear_algebra_for_ml.b362e23e76e91a9d38b0.jpg",
@@ -22,6 +22,7 @@
     "static/media/cnn_architecture.jpg": "/static/media/cnn_architecture.e5be339676689475ac4a.jpg",
     "static/media/14_years_of_life_in_russia.jpg": "/static/media/14_years_of_life_in_russia.d89b11301af9a50599f8.jpg",
     "static/media/diffusion_models.jpg": "/static/media/diffusion_models.e8861f83cf0fc7966f29.jpg",
+    "static/media/a_place_to_call_home.jpg": "/static/media/a_place_to_call_home.adfd4b8db24a1957c556.jpg",
     "static/media/anomaly_detection.jpg": "/static/media/anomaly_detection.8e81c3e401008da571f7.jpg",
     "static/media/ocr.jpg": "/static/media/ocr.6624669c49b5fa1453f4.jpg",
     "static/media/algorithms_and_data_structures.jpg": "/static/media/algorithms_and_data_structures.00d949a136c7e61c84cc.jpg",
@@ -129,10 +130,10 @@
     "static/media/checked.svg": "/static/media/checked.5f61d0f2a434a05b8e24d33cf058ca62.svg",
     "static/media/search.svg": "/static/media/search.f79c8c4f2f424b2647d557172012413d.svg",
     "main.beff865e.css.map": "/static/css/main.beff865e.css.map",
-    "main.2c31688d.js.map": "/static/js/main.2c31688d.js.map"
+    "main.fc63d341.js.map": "/static/js/main.fc63d341.js.map"
   },
   "entrypoints": [
     "static/css/main.beff865e.css",
-    "static/js/main.2c31688d.js"
+    "static/js/main.fc63d341.js"
   ]
 }

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkavrtt_blog=self.webpackChunkavrtt_blog||[]).push([[682],{4633:function(e,t,n){n.r(t),n.d(t,{Head:function(){return u}});var l=n(7294),u=function(){return l.createElement("title",null,"About")};t.default=function(){return l.createElement("main",null,l.createElement("h1",null,"Gatsby component testing..."),l.createElement("p",null,"(__gsql)"))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-76eefd9bf4573625ccc3.js.map

@@ -5,6 +5,7 @@ const About = () => {
     <main>
       <h1>Gatsby component testing...</h1>
       <p>(__gsql)</p>
+      ()
     </main>
   )
 }

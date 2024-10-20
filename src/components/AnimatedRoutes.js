@@ -1,48 +1,41 @@
 import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
-import Learning from '../pages/learning';
 import Home from '../pages/home';
 import Adventures from '../pages/adventures';
-import Donate from '../pages/donate';
+import Research from '../pages/research';
+import Thoughts from '../pages/thoughts'
 import Goals from '../pages/goals';
+import Exploration from '../pages/exploration';
+import Freelance from '../pages/freelance';
+import FreelanceRu from '../pages/freelance_ru';
+import CV from '../pages/cv';
+import About from '../pages/about';
+import Business from '../pages/information_for_business_inquiries';
+import MachineLearning from '../pages/machine_learning';
+import MachineLearningRu from '../pages/machine_learning_ru';
+import DataAnalysis from '../pages/data_analysis';
+import DataAnalysisRu from '../pages/data_analysis_ru';
+import DataVisualization from '../pages/data_visualization';
+import DataVisualizationRu from '../pages/data_visualization_ru';
+import DataCollection from '../pages/data_collection';
+import DataCollectionRu from '../pages/data_collection_ru';
+import PythonApps from '../pages/python_apps';
+import PythonAppsRu from '../pages/python_apps_ru';
+import TechnicalWriting from '../pages/technical_writing';
+import TechnicalWritingRu from '../pages/technical_writing_ru';
+import WebDevelopment from '../pages/web_development';
+import WebDevelopmentRu from '../pages/web_development_ru';
+import Misc from '../pages/misc';
+import MiscRu from '../pages/misc_ru';
+import NotFound from './NotFound';
 
-import Post1 from '../pages/linear_algebra_for_ml';
-import Post2 from '../pages/hypothesis_testing';
-import Post3 from '../pages/algorithms_and_data_structures';
-import Post4 from '../pages/ml_basics';
-import Post5 from '../pages/classification_metrics';
-import Post6 from '../pages/gradient_descent_optimization';
-import Post7 from '../pages/linear_regression';
-import Post8 from '../pages/regularization';
-import Post9 from '../pages/logistic_regression';
-import Post10 from '../pages/bayesian_algorithms';
-import Post11 from '../pages/decision_trees';
-import Post12 from '../pages/knn';
-import Post13 from '../pages/svm';
-import Post14 from '../pages/clustering';
-import Post15 from '../pages/dimensionality_reduction';
-import Post16 from '../pages/intro_to_bigdata';
-import Post17 from '../pages/neural_network_architectures';
-import Post18 from '../pages/ml_model_tuning';
-import Post19 from '../pages/eda';
-import Post20 from '../pages/sklearn';
-import Post21 from '../pages/tensorflow_and_keras';
-import Post22 from '../pages/cv';
-import Post23 from '../pages/nlp';
-import Post24 from '../pages/recommender_systems';
-import Post25 from '../pages/anomaly_detection';
-import Post26 from '../pages/ensembles';
-import Post27 from '../pages/neural_network_concepts';
-import Post28 from '../pages/time_series';
-import Post29 from '../pages/sql_for_ds';
-import Post30 from '../pages/linux_and_cs_basics';
-import Post31 from '../pages/web_services_for_ds';
-import Post32 from '../pages/orenburg';
-import Post33 from '../pages/novosibirsk';
-import Post34 from '../pages/altai';
-import Post35 from '../pages/baikal';
-
+import Post1 from '../pages/posts/adventures/adventures_intro';
+import Post2 from '../pages/posts/research/research_intro';
+import Post3 from '../pages/posts/thoughts/thoughts_intro';
+import Post4 from '../pages/posts/adventures/adventures_test';
+import Post5 from '../pages/posts/research/research_test';
+import Post6 from '../pages/posts/thoughts/thoughts_test';
 
 function AnimatedRoutes() {
 	const location = useLocation();
@@ -50,47 +43,41 @@ function AnimatedRoutes() {
 		<AnimatePresence exitBeforeEnter>
 			<Routes location={location} key={location.pathname}>
 				<Route index element={<Home />} />
-				<Route path='/learning' element={<Learning />} />
 				<Route path='/adventures' element={<Adventures />} />
-				<Route path='/donate' element={<Donate/>} />
-				<Route path='/goals' element={<Goals/>} />
+				<Route path='/research' element={<Research />} />
+				<Route path='/thoughts' element={<Thoughts/>} />				
+				<Route path='/goals' element={<Goals/>} />	
+				<Route path='/exploration' element={<Exploration/>} />
+				<Route path='/freelance' element={<Freelance/>} />
+				<Route path='/freelance/ru' element={<FreelanceRu/>} />		
+				<Route path='/cv' element={<CV/>} />	
+				<Route path='/about' element={<About/>} />
+				<Route path='/information_for_business_inquiries' element={<Business/>} />	
+				<Route path='/freelance/projects/machine_learning' element={<MachineLearning/>} />
+				<Route path='/freelance/ru/projects/machine_learning' element={<MachineLearningRu/>} />
+				<Route path='/freelance/projects/data_analysis' element={<DataAnalysis/>} />
+				<Route path='/freelance/ru/projects/data_analysis' element={<DataAnalysisRu/>} />
+				<Route path='/freelance/projects/data_visualization' element={<DataVisualization/>} />
+				<Route path='/freelance/ru/projects/data_visualization' element={<DataVisualizationRu/>} />
+				<Route path='/freelance/projects/data_collection' element={<DataCollection/>} />
+				<Route path='/freelance/ru/projects/data_collection' element={<DataCollectionRu/>} />
+				<Route path='/freelance/projects/python_apps' element={<PythonApps/>} />
+				<Route path='/freelance/ru/projects/python_apps' element={<PythonAppsRu/>} />
+				<Route path='/freelance/projects/technical_writing' element={<TechnicalWriting/>} />
+				<Route path='/freelance/ru/projects/technical_writing' element={<TechnicalWritingRu/>} />
+				<Route path='/freelance/projects/web_development' element={<WebDevelopment/>} />
+				<Route path='/freelance/ru/projects/web_development' element={<WebDevelopmentRu/>} />
+				<Route path='/freelance/projects/misc' element={<Misc/>} />
+				<Route path='/freelance/ru/projects/misc' element={<MiscRu/>} />
+				<Route path='*' element={<NotFound/>} />
 				
-				<Route path='/learning/linear_algebra_for_ml' element={<Post1/>} />
-				<Route path='/learning/hypothesis_testing' element={<Post2/>} />
-				<Route path='/learning/algorithms_and_data_structures' element={<Post3/>} />
-				<Route path='/learning/ml_basics' element={<Post4/>} />
-				<Route path='/learning/classification_metrics' element={<Post5/>} />
-				<Route path='/learning/gradient_descent_optimization' element={<Post6/>} />
-				<Route path='/learning/linear_regression' element={<Post7/>} />
-				<Route path='/learning/regularization' element={<Post8/>} />
-				<Route path='/learning/logistic_regression' element={<Post9/>} />
-				<Route path='/learning/bayesian_algorithms' element={<Post10/>} />
-				<Route path='/learning/decision_trees' element={<Post11/>} />
-				<Route path='/learning/knn' element={<Post12/>} />
-				<Route path='/learning/svm' element={<Post13/>} />
-				<Route path='/learning/clustering' element={<Post14/>} />
-				<Route path='/learning/dimensionality_reduction' element={<Post15/>} />
-				<Route path='/learning/ml_model_tuning' element={<Post18/>} />
-				<Route path='/learning/eda' element={<Post19/>} />
-				<Route path='/learning/sklearn' element={<Post20/>} />
-				<Route path='/learning/tensorflow_and_keras' element={<Post21/>} />
-				<Route path='/learning/cv' element={<Post22/>} />
-				<Route path='/learning/nlp' element={<Post23/>} />
-				<Route path='/learning/recommender_systems' element={<Post24/>} />
-				<Route path='/learning/anomaly_detection' element={<Post25/>} />
-				<Route path='/learning/ensembles' element={<Post26/>} />
-				<Route path='/learning/neural_network_concepts' element={<Post27/>} />
-				<Route path='/learning/time_series' element={<Post28/>} />
-				<Route path='/learning/sql_for_ds' element={<Post29/>} />
-				<Route path='/learning/linux_and_cs_basics' element={<Post30/>} />
-				<Route path='/learning/web_services_for_ds' element={<Post31/>} />
-				<Route path='/learning/intro_to_bigdata' element={<Post16/>} />
-				<Route path='/learning/neural_network_architectures' element={<Post17/>} />
-				<Route path='/adventures/orenburg' element={<Post32/>} />
-				<Route path='/adventures/novosibirsk' element={<Post33/>} />
-				<Route path='/adventures/altai' element={<Post34/>} />
-				<Route path='/adventures/baikal' element={<Post35/>} />
-				
+				<Route path='/adventures/adventures_intro' element={<Post1/>} />
+				<Route path='/research/research_intro' element={<Post2/>} />
+				<Route path='/thoughts/thoughts_intro' element={<Post3/>} />
+				<Route path='/adventures/adventures_test' element={<Post4/>} />
+				<Route path='/research/research_test' element={<Post5/>} />
+				<Route path='/thoughts/thoughts_test' element={<Post6/>} />
+
 			</Routes>
 		</AnimatePresence>
 	);

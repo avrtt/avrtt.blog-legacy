@@ -1,0 +1,28 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1">
+
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <circle id="svg_2" fill="#f94848" r="32" cy="32" cx="32" class="st0"/>
+  </g>
+  <g id="svg_3" opacity="0.2" class="st1">
+   <path id="svg_4" fill="#231F20" d="m52,45c0,2.2 -1.8,4 -4,4l-32,0c-2.2,0 -4,-1.8 -4,-4l0,-20c0,-2.2 1.8,-4 4,-4l32,0c2.2,0 4,1.8 4,4l0,20z" class="st2"/>
+  </g>
+  <g id="svg_5">
+   <path id="svg_6" fill="#FFFFFF" d="m52,43c0,2.2 -1.8,4 -4,4l-32,0c-2.2,0 -4,-1.8 -4,-4l0,-20c0,-2.2 1.8,-4 4,-4l32,0c2.2,0 4,1.8 4,4l0,20z" class="st3"/>
+  </g>
+  <g id="svg_7">
+   <rect id="svg_8" fill="#4F5D73" height="6" width="40" class="st4" y="25" x="12"/>
+  </g>
+  <g id="svg_9">
+   <circle id="svg_10" fill="#E0995E" r="2" cy="41" cx="38" class="st5"/>
+  </g>
+  <g id="svg_11">
+   <circle id="svg_12" fill="#E0995E" r="2" cy="41" cx="46" class="st5"/>
+  </g>
+  <g id="svg_13">
+   <circle id="svg_14" fill="#E0995E" r="2" cy="41" cx="30" class="st5"/>
+  </g>
+  <g id="Layer_2"/>
+ </g>
+</svg>

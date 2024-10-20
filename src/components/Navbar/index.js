@@ -1,26 +1,43 @@
 import React from "react";
-import { Nav, NavLink, NavMenu } 
-    from "./NavbarElements";
-  
+import { useNavigate } from "react-router-dom";
+import { Nav, NavLink, NavMenu } from "./NavbarElements";
+    
 const Navbar = () => {
+	
+  let navigate = useNavigate(); 
+  const routeChange = () => { 
+    let path = `/`; 
+    navigate(path);
+  } 	
+	
   return (
     <>
       <Nav>
         <NavMenu>
-          <NavLink to="/" activeStyle>
-            Home
-          </NavLink>
+        	<img onClick={routeChange} class="logo" src={require("./logo.png")} alt="favicon" />
           <NavLink to="/adventures" activeStyle>
             Adventures
           </NavLink>
-          <NavLink to="/learning" activeStyle>
-            Learning
+          <NavLink to="/research" activeStyle>
+            Research
+          </NavLink>
+          <NavLink to="/thoughts" activeStyle>
+            Thoughts
           </NavLink>
           <NavLink to="/goals" activeStyle>
             Goals
           </NavLink>
-          <NavLink to="/donate" activeStyle>
-            Donate
+          <NavLink to="/exploration" activeStyle>
+            Exploration
+          </NavLink>
+          <NavLink to="/freelance" activeStyle>
+            Freelance
+          </NavLink>
+          <NavLink to="/cv" activeStyle>
+            CV
+          </NavLink>
+          <NavLink to="/about" activeStyle>
+            About
           </NavLink>
         </NavMenu>
       </Nav>

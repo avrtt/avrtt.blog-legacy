@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet'
 import { itemDataAdventures } from './itemData';
 import Box from '@mui/material/Box';
@@ -13,16 +13,21 @@ itemDataAdventures.sort(function (a, b) {
   return b.id - a.id;
 });
 
-const TITLE = 'Adventures - segfaultnomad.github.io'
+const TITLE = 'Adventures - avrtt.blog'
 
 const Posts = () => {
+	
+	useEffect(() => {
+  		window.scrollTo(0, 0)
+	}, [])	
+	
   return (
 	<motion.div class='noselect'
 		initial={{opacity: 0 }}
 		animate={{opacity: 1 }}
 		exit={{opacity: 0 }}
 		transition={{ duration: 0.15 }}>
-		
+			
 		<Helmet>
 			<title>{ TITLE }</title>
         </Helmet>  
@@ -32,18 +37,18 @@ const Posts = () => {
 				{itemDataAdventures.map((item) => (
 					<ImageListItem key={item.img}>
 						<div class="hover">
-							<AnimationOnScroll offset="1000" animateIn="animate__fadeIn" animateOnce="true" duration="1"><img
+							<AnimationOnScroll offset="999999" animateIn="animate__fadeIn" animatePreScroll="false" duration="0.3"><img
 								class="prew-home"
 								src={`${item.img}?w=248&fit=crop&auto=format`}
 								srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
 								alt="img_prev"
 								loading="lazy"
 							/></AnimationOnScroll>
-							<Link to={item.href}>
+							<Link to={"." + item.href}>
 								<div class="overlay-back">
 									<div class="titleblock"><p class="title">{item.title}</p></div>							
 								</div>
-								<div class="overlay-home">
+								<div class="overlay-base">
 									<p class="title">{item.title}</p>
 									<div class="description">{item.desc}</div>
 								</div>

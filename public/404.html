@@ -1,26 +1,20 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
-        <title>Page Not Found</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-		<link rel="manifest" href="manifest.json">
-		<style>
-		body {
-			background-color: #f2f2f2;	
-		}
-		</style>
-    </head>
-    <body>
-	
-	<div style="cusor: none; display: block; margin-left: auto; margin-right: auto; width: 250px; margin-top: 200px; text-align: center;">
-	    <a href="https://www.youtube.com/watch?v=KLn43uJl6o4"><img src="mysterious_frog.png"></a>
-	    <p style="font-size: 18px;">Error 404: the frog was found</p>
-	</div>
-	
-    </body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      var pathSegmentsToKeep = 0;
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body>
+  </body>
 </html>
-

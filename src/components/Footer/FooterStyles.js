@@ -1,10 +1,12 @@
 import styled from 'styled-components';
    
 export const Box = styled.div`
-  padding-top: 100px;
+  padding-top: 10vh;
   width: 100%; 
+  margin-bottom: -8vh;
+  margin-top: 1.5vw;
   @media (max-width: 1000px) {
-    padding: 70px 30px;
+    
   }
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -27,11 +29,11 @@ export const Row = styled.div`
   justify-content: center;
   color: #777;
   grid-template-columns: repeat(auto-fill, 
-                         minmax(185px, 1fr));
-  grid-gap: 10px;
+                         minmax(0px, 1fr));
+  grid-gap: 0.3vw;
   @media (max-width: 1000px) {
     grid-template-columns: repeat(auto-fill, 
-                           minmax(200px, 1fr));
+                           minmax(0px, 1fr));
   }
   font-weight: bold;
 `;

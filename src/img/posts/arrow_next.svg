@@ -1,0 +1,16 @@
+<svg width="1080" height="1080" xmlns="http://www.w3.org/2000/svg" version="1.2">
+ <title>arrow_last-svg</title>
+
+ <g>
+  <title>Layer 1</title>
+  <path fill="none" d="m0,0l1080,0l0,1080l-1080,0l0,-1080z" class="s0" id="backgroundrect"/>
+  <g id="Layer">
+   <g id="e0786e34-50b4-43b9-a0b0-c078685b9a92"/>
+   <g id="99c6356e-f058-4ed9-ab06-8b75768861fa"/>
+   <g id="svg_6">
+    <path fill="#f2f2f2" d="m405.7,522.4l100,-100c9.7,-9.7 25.7,-9.7 35.3,0c9.7,9.6 9.7,25.6 0,35.3l-57.3,57.3l173,0c13.7,0 25,11.4 25,25c0,13.7 -11.3,25 -25,25l-173,0l57.3,57.4c9.7,9.6 9.7,25.6 0,35.3c-5,5 -11.3,7.3 -17.6,7.3c-6.4,0 -12.7,-2.3 -17.7,-7.3l-100,-100c-9.6,-9.7 -9.6,-25.7 0,-35.3z" class="s1" id="svg_7"/>
+   </g>
+   <g id="svg_4"/>
+  </g>
+ </g>
+</svg>
